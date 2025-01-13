@@ -1,36 +1,34 @@
 {
   "props": [
     {
-      "zIndex": 5000,
       "danceEvery": 0,
-      "position": [0, 0],
-      "scale": [50, 50],
-      "name": "backgroundlol",
+      "zIndex": 10,
+      "position": [-100, 0],
+      "scale": [2, 2],
       "animType": "sparrow",
-      "isPixel": true,
-      "scroll": [0, 0],
-	  "alpha": 0.00001,
-      "assetPath": "mario/beatus/unbeatableback",
+      "name": "stageBack",
+      "isPixel": false,
+      "assetPath": "stageback",
+      "scroll": [0.9, 0.9],
       "animations": []
-    }
-  ],
-  "cameraZoom": 1.1,
+    }],
+  "cameraZoom": 0.9,
   "version": "1.0.0",
   "characters": {
     "bf": {
       "zIndex": 300,
-      "position": [989.5, 885],
-      "cameraOffsets": [-100, -100]
+      "position": [950, 570],
+      "cameraOffsets": [0, 0]
     },
     "dad": {
-      "zIndex": 200,
-      "position": [335, 885],
-      "cameraOffsets": [150, -100]
+      "zIndex": 250,
+      "position": [670, 980],
+      "cameraOffsets": [0, -100]
     },
     "gf": {
-      "zIndex": 100,
+      "zIndex": 240,
       "cameraOffsets": [0, 0],
-      "position": [751.5, 787]
+      "position": [570, 580]
     }
   },
   "name": "Main Stage"
