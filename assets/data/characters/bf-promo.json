@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "name": "Bf-Promo",
+  "renderType": "sparrow",
+  "assetPath": "characters/MM_Boyfriend_Assets_CAUSAPE",
+  "flipX": false,
+  "singTime": 4.0,
+    "healthIcon": {
+    "id": "bf-mario"
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "IDLE",
+      "offsets": [-4, 30]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "RIGHT",
+      "offsets": [27, 31]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "DOWN",
+      "offsets": [-21, -6]
+    },
+    {
+      "name": "singUP",
+      "prefix": "UP",
+      "offsets": [32, 90]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "LEFT",
+      "offsets": [-27, 31]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "MISSRIGHT",
+      "offsets": [24, 59]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "MISSDOWN",
+      "offsets": [-15, 40]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "MISSUP",
+      "offsets": [32, 94]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "MISSLEFT",
+      "offsets": [-27, 37]
+    }
+  ]
+}

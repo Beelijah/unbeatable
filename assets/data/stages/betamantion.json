@@ -1,0 +1,219 @@
+{
+  "version": "1.0.0",
+  "cameraZoom": 0.8,
+  "props": [
+     {
+      "zIndex": 9,
+      "danceEvery": 0,
+      "position": [-1200, -850],
+      "scale": [1, 1],
+      "name": "bg",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [0.2, 0.2],
+      "assetPath": "mario/LuigiBeta/Skybox",
+      "animations": []
+    },
+    {
+      "zIndex": 10,
+      "danceEvery": 0,
+      "position": [-1200, -850],
+      "scale": [1, 1],
+      "name": "scarymansion",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [0.8, 0.8],
+      "assetPath": "mario/LuigiBeta/BackBG",
+      "animations": []
+    },
+    {
+      "zIndex": 20,
+      "danceEvery": 0,
+      "position": [1270, -630],
+      "scale": [1, 1],
+      "name": "betafire2",
+      "animType": "sparrow",
+	  "startingAnimation": "idle",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/LuigiBeta/Alone_Fire",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "fire",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }		
+	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 20,
+      "danceEvery": 0,
+      "position": [-320, -630],
+      "scale": [1, 1],
+      "name": "betafire1",
+      "animType": "sparrow",
+	  "startingAnimation": "idle",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/LuigiBeta/Alone_Fire",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "fire",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }		  
+	  ]
+    },
+    {
+      "zIndex": 30,
+      "danceEvery": 0,
+      "position": [-1200, -850],
+      "scale": [1, 1],
+      "name": "scaryfloor",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [1, 1],
+      "assetPath": "mario/LuigiBeta/FrontBG",
+      "animations": []
+    },
+    {
+      "zIndex": 300,
+      "danceEvery": 1,
+      "position": [570, 100],
+      "scale": [1, 1],
+      "name": "betagf",
+      "animType": "sparrow",
+	  "startingAnimation": "danceRight",
+      "isPixel": false,
+      "alpha": 0.0001,	  
+      "scroll": [1, 1],
+      "assetPath": "characters/Beta_Luigi_GF_Assets",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "GFIdle",
+          "name": "danceRight",
+		  "frameIndices": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "GFIdle",
+          "name": "danceLeft",
+		  "frameIndices": [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+          "looped": false,
+          "flipX": false
+        }
+	  ]
+    },
+    {
+      "zIndex": 10,
+      "danceEvery": 0,
+      "position": [-170, 50],
+      "scale": [1, 1],
+      "name": "lluvia",
+      "animType": "sparrow",
+	  "startingAnimation": "idle",
+      "isPixel": false,
+      "alpha": 0.00001,	  
+      "scroll": [1, 1],
+      "assetPath": "mario/LuigiBeta/old/Beta_Luigi_Rain_V1",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "RainLuigi",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }
+	  ]
+    },
+    {
+      "zIndex": 10,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "darkfog",
+      "animType": "sparrow",
+      "isPixel": false,
+      "alpha": 1,	  
+      "scroll": [1, 1],
+      "assetPath": "126",
+      "animations": []
+    },
+    {
+      "zIndex": 310,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "sad1",
+      "animType": "sparrow",
+      "isPixel": false,
+      "alpha": 0.0001,	  
+      "scroll": [1, 1],
+      "assetPath": "mario/LuigiBeta/sad1",
+      "animations": []
+    },
+    {
+      "zIndex": 300,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "sad2",
+      "animType": "sparrow",
+      "isPixel": false,
+      "alpha": 0.0001,		  
+      "scroll": [1, 1],
+      "assetPath": "mario/LuigiBeta/sad2",
+      "animations": []
+    },
+    {
+      "zIndex": 290,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "sad3",
+      "animType": "sparrow",
+      "isPixel": false,
+      "alpha": 0.0001,	  
+      "scroll": [1, 1],
+      "assetPath": "mario/LuigiBeta/sad3",
+      "animations": []
+    }
+  ],
+  "characters": {
+    "bf": {
+      "zIndex": 400,
+      "position": [1200, 760],
+      "cameraOffsets": [-350, -100]
+    },
+    "gf": {
+      "zIndex": 19,
+      "position": [700, 60],
+      "cameraOffsets": [0, 0]
+    },
+    "dad": {
+      "zIndex": 500,
+      "position": [230, 930],
+      "cameraOffsets": [200, -150]
+    }
+  },
+  "name": "Betamantion"
+}

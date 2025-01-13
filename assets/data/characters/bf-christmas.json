@@ -6,8 +6,8 @@
   "healthIcon": {
     "id": "bf"
   },
-  "renderType": "multisparrow",
-  "singTime": 8.0,
+  "renderType": "sparrow",
+  "singTime": 4.0,
   "animations": [
     {
       "name": "idle",
@@ -17,61 +17,67 @@
     {
       "name": "singLEFT",
       "prefix": "BF NOTE LEFT0",
-      "offsets": [12, -6]
+      "offsets": [-15, 0]
     },
     {
       "name": "singDOWN",
       "prefix": "BF NOTE DOWN0",
-      "offsets": [-10, -50]
+      "offsets": [-22, 0]
     },
     {
       "name": "singUP",
       "prefix": "BF NOTE UP0",
-      "offsets": [-29, 27]
+      "offsets": [-31, 0]
     },
     {
       "name": "singRIGHT",
       "prefix": "BF NOTE RIGHT0",
-      "offsets": [-38, -7]
+      "offsets": [-15, -1]
+    },
+    {
+      "name": "singLEFT-alt",
+      "prefix": "BF NOTE LEFT ALT",
+      "offsets": [25, 0]
+    },
+    {
+      "name": "singDOWN-alt",
+      "prefix": "BF NOTE DOWN ALT",
+      "offsets": [-22, 0]
+    },
+    {
+      "name": "singUP-alt",
+      "prefix": "BF NOTE UP ALT",
+      "offsets": [29, 0]
+    },
+    {
+      "name": "singRIGHT-alt",
+      "prefix": "BF NOTE RIGHT ALT",
+      "offsets": [-15, -1]
     },
     {
       "name": "singLEFTmiss",
       "prefix": "BF NOTE LEFT MISS",
-      "offsets": [12, 24]
+      "offsets": [-15, 0]
     },
     {
       "name": "singDOWNmiss",
       "prefix": "BF NOTE DOWN MISS",
-      "offsets": [-11, -19]
+      "offsets": [-22, 0]
     },
     {
       "name": "singUPmiss",
       "prefix": "BF NOTE UP MISS",
-      "offsets": [-29, 27]
+      "offsets": [-31, 0]
     },
     {
       "name": "singRIGHTmiss",
       "prefix": "BF NOTE RIGHT MISS",
-      "offsets": [-30, 21]
+      "offsets": [-15, -1]
     },
     {
-      "name": "firstDeath",
-      "prefix": "BF dies",
-      "assetPath": "characters/BOYFRIEND",
-      "offsets": [-37, 11]
-    },
-    {
-      "name": "deathLoop",
-      "prefix": "BF Dead Loop",
-      "assetPath": "characters/BOYFRIEND",
-      "looped": true,
-      "offsets": [-37, 5]
-    },
-    {
-      "name": "deathConfirm",
-      "prefix": "BF Dead confirm",
-      "assetPath": "characters/BOYFRIEND",
-      "offsets": [-37, 69]
+      "name": "hey",
+      "prefix": "BF Hey",
+      "offsets": [-5, -1]
     }
   ]
 }

@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "name": "Costume",
+  "renderType": "sparrow",
+  "assetPath": "characters/endstage/Costume_Mario_Assets",
+  "flipX": false,
+  "singTime": 6.1,
+  "healthIcon": {
+    "id": "costume"
+  },  
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle",
+      "offsets": [0, 450]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Left",
+      "offsets": [182, 419]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Down",
+      "offsets": [78, 177]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Up",
+      "offsets": [52, 499]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Right",
+      "offsets": [-82, 278]
+    },
+    {
+      "name": "idle-alt",
+      "prefix": "Slumped Idle",
+      "offsets": [150, 80]
+    },
+    {
+      "name": "singLEFT-alt",
+      "prefix": "Slumped Left",
+      "offsets": [152, 88]
+    },
+    {
+      "name": "singDOWN-alt",
+      "prefix": "Slumped Down",
+      "offsets": [158, 80]
+    },
+    {
+      "name": "singUP-alt",
+      "prefix": "Slumped Up",
+      "offsets": [149, 123]
+    },
+    {
+      "name": "singRIGHT-alt",
+      "prefix": "Slumped Right",
+      "offsets": [155, 103]
+    }
+  ]
+}

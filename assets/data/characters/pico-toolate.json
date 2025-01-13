@@ -1,0 +1,107 @@
+{
+  "version": "1.0.0",
+  "name": "Pico-Toolate",
+  "renderType": "multisparrow",
+  "assetPath": "characters/Too_Late_Pico_ass_sets_v2",
+  "flipX": true,
+  "singTime": 4.0,
+  "healthIcon": {
+    "id": "pico-toolate"
+  },  
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Pico Idle Dance",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "PicoLeft0",
+      "offsets": [8, -20]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "PicoDown0",
+      "offsets": [-30, -90]
+    },
+    {
+      "name": "singUP",
+      "prefix": "PicoUp0",
+      "offsets": [-69, 57]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "PicoRight0",
+      "offsets": [-92, 23]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "PicoLeftMiss",
+      "offsets": [13, 8]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "PicoDownMiss",
+      "offsets": [5, -63]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "PicoUpMiss",
+      "offsets": [-66, 67]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "PicoRightMiss",
+      "offsets": [-54, 42]
+    },
+    {
+      "name": "Shoot",
+      "prefix": "PicoShoot0",
+	  "frameRate": 40,
+      "offsets": [211, 174]
+    },
+    {
+      "name": "idle-alt",
+      "prefix": "PicoCrouchIdle",
+      "offsets": [-63, -42]
+    },
+    {
+      "name": "singLEFT-alt",
+      "prefix": "PicoCrouchLeft",
+      "offsets": [-83, -40]
+    },
+    {
+      "name": "singDOWN-alt",
+      "prefix": "PicoCrouchDown",
+      "offsets": [-70, -47]
+    },
+    {
+      "name": "singUP-alt",
+      "prefix": "PicoCrouchUp",
+      "offsets": [-73, -27]
+    },
+    {
+      "name": "singRIGHT-alt",
+      "prefix": "PicoCrouchRight",
+      "offsets": [-83, -37]
+    },
+    {
+      "name": "dialog2",
+	  "assetPath": "characters/Too_Late_Pico_DIALOGUEFINAL_assets",
+      "prefix": "PicoDialogue",
+      "offsets": [-50, 90]
+    },
+    {
+      "name": "dialog1",
+	  "assetPath": "characters/Too_Late_Pico_DIALOGUEFINAL_assets",
+      "prefix": "PicoDIalogue",
+      "offsets": [-4, -3]
+    },
+    {
+      "name": "dialog3",
+	  "assetPath": "characters/Too_Late_Pico_DIALOGUEFINAL_assets",
+      "prefix": "PicoDialogue3",
+      "offsets": [271, 67]
+    }
+  ]
+}

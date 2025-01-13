@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "name": "PeachEXE",
+  "renderType": "multisparrow",
+  "assetPath": "characters/Peach_EXE_Assets_New",
+  "flipX": false,
+  "singTime": 4.0,
+  "animations": [
+    {
+      "name": "idle-alt",
+      "prefix": "PeachIdle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT-alt",
+      "prefix": "PeachLeft",
+      "offsets": [433, -210]
+    },
+    {
+      "name": "singDOWN-alt",
+      "prefix": "PeachDown",
+      "offsets": [248, -270]
+    },
+    {
+      "name": "singUP-alt",
+      "prefix": "PeachUp",
+      "offsets": [40, 256]
+    },
+    {
+      "name": "singRIGHT-alt",
+      "prefix": "PeachRight",
+      "offsets": [17, -170]
+    }
+  ]
+}

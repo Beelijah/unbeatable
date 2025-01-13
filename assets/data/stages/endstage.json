@@ -1,0 +1,180 @@
+{
+  "version": "1.0.0",
+  "cameraZoom": 0.45,
+  "props": [
+    {
+      "zIndex": 20,
+      "danceEvery": 0,
+      "position": [-1200, -770],
+      "scale": [1, 1],
+      "name": "bg",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.5, 1],
+      "assetPath": "mario/costume/PedacitoDeGris",
+      "animations": []
+    },
+    {
+      "zIndex": 25,
+      "danceEvery": 0,
+      "position": [-1200, -770],
+      "scale": [1, 1],
+      "name": "floor",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/costume/Floor and Courtains",
+      "animations": []
+    },
+    {
+      "zIndex": 30,
+      "danceEvery": 0,
+      "position": [-1200, -770],
+      "scale": [1, 1],
+      "name": "mesa",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/costume/mesa mesa mesa que mas aplauda",
+      "animations": []
+    },
+    {
+      "zIndex": 98,
+      "danceEvery": 0,
+      "position": [-1400, -300],
+      "scale": [1, 1],
+      "name": "castle0",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1.4, 1.4],
+      "assetPath": "mario/costume/Foreground",
+      "animations": []
+    },
+    {
+      "zIndex": 100,
+      "danceEvery": 0,
+      "position": [-1200, -770],
+      "scale": [1, 1],
+      "name": "funnylayer0",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.001,
+      "assetPath": "mario/costume/Lamp",
+      "animations": []
+    },
+    {
+      "zIndex": 300,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "elfin",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.001,
+      "assetPath": "mario/costume/end",
+      "animations": []
+    },
+    {
+      "zIndex": 300,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "linefount",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.001,
+      "assetPath": "mario/costume/endtext",
+      "animations": []
+    },
+    {
+      "zIndex": 300,
+      "danceEvery": 99,
+      "position": [-70, 120],
+      "scale": [1, 1],
+      "name": "costumedark",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "startingAnimation": "idle",
+	  "alpha": 0.001,
+      "assetPath": "characters/endstage/Costume_Mario_Assets2",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "DarkIdle",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        },
+	    {
+          "offsets": [-232, 38],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "DarkRight",
+          "name": "singRIGHT",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [58, -73],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "DarkDown",
+          "name": "singDOWN",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [182, 109],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "DarkUp",
+          "name": "singUP",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [332, 29],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "Darkleft",
+          "name": "singLEFT",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [195, 290],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "DarkTransition",
+          "name": "wahoo",
+          "looped": false,
+          "flipX": false
+        }		
+	  ]
+    }
+  ],
+  "characters": {
+    "bf": {
+      "zIndex": 70,
+      "position": [1100, 880],
+      "cameraOffsets": [-200, -130]
+    },
+    "gf": {
+      "zIndex": 29,
+      "position": [450, 1020],
+      "cameraOffsets": [0, 0]
+    },
+    "dad": {
+      "zIndex": 60,
+      "position": [190, 880],
+      "cameraOffsets": [200, -100]
+    }
+  },
+  "name": "Endstage"
+}

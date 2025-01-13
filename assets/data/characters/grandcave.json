@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "name": "GD-Cave",
+  "renderType": "multisparrow",
+  "assetPath": "characters/dad7/cavegdpixel",
+  "flipX": false,
+  "singTime": 4.0,
+  "isPixel": true,
+  "scale": 12,
+  "healthIcon": {
+    "id": "cavedad"
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "pixelgrand idle",
+	  "frameRate": 12,
+      "offsets": [-85, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "pixelgrand left",
+      "offsets": [-73, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "pixelgrand down",
+      "offsets": [-85, 0]
+    },
+    {
+      "name": "singUP",
+      "prefix": "pixelgrand up",
+      "offsets": [-61, 24]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "pixelgrand right",
+      "offsets": [-85, 0]
+    }
+  ]
+}

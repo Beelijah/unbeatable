@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "name": "Bowser",
+  "renderType": "sparrow",
+  "assetPath": "characters/beatus/YouCannotBeatUS_Bowser_Asset",
+  "flipX": false,
+  "singTime": 4,
+  "scale": 1,
+  "healthIcon": {
+    "id": "bowser"
+  },  
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Left",
+      "offsets": [-10, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Down",
+      "offsets": [-20, 0]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Up",
+      "offsets": [-14, 0]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Right",
+      "offsets": [-68, 0]
+    }
+  ]
+}

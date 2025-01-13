@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "name": "KoopaSS",
+  "renderType": "sparrow",
+  "assetPath": "characters/SS_Koopa_Assets",
+  "flipX": false,
+  "singTime": 4.0,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle",
+	  "looped": true,
+      "offsets": [161, -331]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Left",
+      "offsets": [199, -328]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Down",
+      "offsets": [144, -335]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Up",
+      "offsets": [206, -275]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Right",
+      "offsets": [60, -338]
+    }
+  ]
+}

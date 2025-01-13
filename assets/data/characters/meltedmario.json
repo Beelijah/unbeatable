@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0",
+  "name": "MeltedMario",
+  "renderType": "sparrow",
+  "assetPath": "characters/Melted_MarioEXE_Assets",
+  "flipX": false,
+  "singTime": 4.0,
+  "animations": [
+    {
+      "name": "idle-melted",
+      "prefix": "meltio idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT-melted",
+      "prefix": "meltio left",
+      "offsets": [89, 68]
+    },
+    {
+      "name": "singDOWN-melted",
+      "prefix": "meltio down",
+      "offsets": [1, -321]
+    },
+    {
+      "name": "singUP-melted",
+      "prefix": "meltio up",
+      "offsets": [-57, 367]
+    },
+    {
+      "name": "singRIGHT-melted",
+      "prefix": "meltio right",
+      "offsets": [32, -34]
+    },
+    {
+      "name": "jump",
+	  "looped": true,
+      "prefix": "meltio jump0",
+      "offsets": [40, 130]
+    },
+	{
+      "name": "fall",
+	  "looped": true,
+      "prefix": "meltio jump 2",
+      "offsets": [90, 70]
+    },
+	{
+      "name": "end",
+      "prefix": "meltio scream",
+      "offsets": [0, 80]
+    }
+  ]
+}

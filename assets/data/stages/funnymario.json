@@ -1,0 +1,340 @@
+{
+  "version": "1.0.0",
+  "cameraZoom": 0.5,
+  "props": [
+    {
+      "zIndex": 10,
+      "danceEvery": 0,
+      "position": [-1100, -600],
+      "scale": [1, 1],
+      "name": "sky",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.1, 0.1],
+      "assetPath": "mario/EXE1/starman/SS_sky",
+      "animations": []
+    },
+    {
+      "zIndex": 20,
+      "danceEvery": 0,
+      "position": [-1125, -600],
+      "scale": [1, 1],
+      "name": "castillo",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.2, 0.2],
+      "assetPath": "mario/EXE1/starman/SS_castle",
+      "animations": []
+    },
+    {
+      "zIndex": 30,
+      "danceEvery": 0,
+      "position": [-1400, -850],
+      "scale": [1, 1],
+      "name": "fireL",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "FIRE",	  
+      "scroll": [0.4, 0.4],
+      "assetPath": "mario/EXE1/starman/Starman_BG_Fire_Assets",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "fire anim effects",
+          "name": "FIRE",
+          "looped": true,
+          "flipX": false
+        }
+	  ]
+    },
+    {
+      "zIndex": 30,
+      "danceEvery": 0,
+      "position": [700, -850],
+      "scale": [1, 1],
+      "name": "fireR",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "delay", 
+      "scroll": [0.4, 0.4],
+      "assetPath": "mario/EXE1/starman/Starman_BG_Fire_Assets",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "frameIndices": [8,9,10,11,12,13,14,15,0,1,2,3,4,5,6,7],		  
+          "prefix": "fire anim effects",
+          "name": "delay",
+          "looped": true,
+          "flipX": true
+        }
+	  ]
+    },
+    {
+      "zIndex": 50,
+      "danceEvery": 0,
+      "position": [-950, -600],
+      "scale": [1, 1],
+      "name": "platform0",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.55, 0.55],
+      "assetPath": "mario/EXE1/starman/SS_farplatforms",
+      "animations": []
+    },
+    {
+      "zIndex": 55,
+      "danceEvery": 0,
+      "position": [835, 610],
+      "scale": [1, 1],
+      "name": "starmanPOW",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.55, 0.55],
+      "assetPath": "mario/EXE1/starman/SS_POWblock",
+      "animations": []
+    },
+    {
+      "zIndex": 58,
+      "danceEvery": 2,
+      "position": [765, -1520],
+      "scale": [1, 1],
+      "name": "yoshiexe",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle",
+      "scroll": [0.55, 0.55],
+      "assetPath": "characters/Yoshi_EXE_Assets",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "yoshiexe idle",
+          "name": "idle",
+          "flipX": false
+        },
+	    {
+          "offsets": [15, 13],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "yoshiexe right",
+          "name": "singRIGHT",
+          "flipX": false
+        },
+	    {
+          "offsets": [22, -123],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "yoshiexe down",
+          "name": "singDOWN",
+          "flipX": false
+        },
+	    {
+          "offsets": [30, 236],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "yoshiexe up",
+          "name": "singUP",
+          "flipX": false
+        },		
+	    {
+          "offsets": [234, 31],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "yoshiexe left",
+          "name": "singLEFT",
+          "flipX": false
+        },
+	    {
+          "offsets": [150, 340],
+          "flipY": false,
+          "frameRate": 24,
+		  "looped": true,
+		  "frameIndices": [
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+          ],
+          "prefix": "yoshiexe ground pound",
+          "name": "prepow",
+          "flipX": false
+        },
+	    {
+          "offsets": [80, 20],
+          "flipY": false,
+          "frameRate": 24,
+		  "looped": true,
+          "prefix": "yoshiexe stare",
+          "name": "stare",
+          "flipX": false
+        },
+	    {
+          "offsets": [746, 215],
+          "flipY": false,
+          "frameRate": 24,
+		  "looped": false,
+          "prefix": "yoshiexe death",
+          "name": "death",
+          "flipX": false
+        },
+	    {
+          "offsets": [150, 340],
+          "flipY": false,
+          "frameRate": 24,
+		  "looped": false,
+		  "frameIndices": [
+            2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+          ],
+          "prefix": "yoshiexe ground pound",
+          "name": "pow",
+          "flipX": false
+        }		
+	  ]
+    },
+    {
+      "zIndex": 60,
+      "danceEvery": 0,
+      "position": [-850, -600],
+      "scale": [1, 1],
+      "name": "platform1",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.65, 0.65],
+      "assetPath": "mario/EXE1/starman/SS_midplatforms",
+      "animations": []
+    },
+    {
+      "zIndex": 70,
+      "danceEvery": 0,
+      "position": [-750, -600],
+      "scale": [1, 1],
+      "name": "floor",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/EXE1/starman/SS_floor",
+      "animations": []
+    },
+    {
+      "zIndex": 250,
+      "danceEvery": 0,
+      "position": [-800, -600],
+      "scale": [8, 8],
+      "name": "blackbar",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "black",
+      "animations": []
+    },
+    {
+      "zIndex": 80,
+      "danceEvery": 0,
+      "position": [-500, -250],
+      "scale": [1, 1],
+      "name": "pexe",
+      "animType": "sparrow",
+      "isPixel": false,
+	  "startingAnimation": "ohno",
+      "scroll": [1, 1],
+      "assetPath": "characters/Peach_EXE_Cuts_New",
+      "animations": [
+       {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "looped": false,
+		  "prefix": "PeachDIES",
+          "name": "ohno",
+          "flipX": false
+        },
+       {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "looped": true,
+		  "prefix": "PeachFalling1",
+          "name": "floats",
+          "flipX": false
+        },
+       {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "looped": false,
+		  "prefix": "PeachFalling2",
+          "name": "fall",
+          "flipX": false
+        }			
+	  ]
+    },	
+    {
+      "zIndex": 500,
+      "danceEvery": 0,
+      "position": [-1100, -600],
+      "scale": [1, 1],
+      "name": "platform2",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1.3, 1.3],
+      "assetPath": "mario/EXE1/starman/SS_foreground",
+      "animations": []
+    },
+    {
+      "zIndex": 80,
+      "danceEvery": 1,
+      "position": [1900, 425],
+      "scale": [1, 1],
+      "name": "starmanGF",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "danceLeft",
+      "scroll": [1, 1],
+      "assetPath": "characters/SS_GF_scared_Assets",
+      "animations": [
+        {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+          "prefix": "GF Dancing Beat",
+          "looped": false,
+          "name": "danceLeft",
+          "flipX": false
+        },
+        {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "frameIndices": [
+            15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+          ],
+          "prefix": "GF Dancing Beat",
+          "looped": false,
+          "name": "danceRight",
+          "flipX": false
+        }
+      ]
+    }
+  ],
+  "characters": {
+    "bf": {
+      "zIndex": 200,
+      "position": [1800, 880],
+      "cameraOffsets": [-300, -100]
+    },
+    "gf": {
+      "zIndex": 60,
+      "position": [787, 1800],
+      "cameraOffsets": [0, 0]
+    },
+    "dad": {
+      "zIndex": 300,
+      "position": [430, 870],
+      "cameraOffsets": [150, 0]
+    }
+  },
+  "name": "Exesequel"
+}

@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "name": "Mario-Beta",
+  "renderType": "sparrow",
+  "assetPath": "characters/Alone_Mario_Assets",
+  "flipX": false,
+  "singTime": 4.0,  
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "MarioIdle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "MarioLeft",
+      "offsets": [60, 20]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "MarioDown",
+      "offsets": [7, -30]
+    },
+    {
+      "name": "singUP",
+      "prefix": "MarioUp",
+      "offsets": [0, 30]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "MarioRight",
+      "offsets": [-30, 0]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "name": "Mr Virtual",
+  "renderType": "multisparrow",
+  "assetPath": "characters/Virtual/Mr_Virtual_V2_Assets",
+  "flipX": false,
+  "singTime": 4.0,
+  "healthIcon": {
+    "id": "v"
+  },  
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "VIdle",
+      "offsets": [0, 450]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "VLeft",
+      "offsets": [347, 524]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "VDown",
+      "offsets": [400, 110]
+    },
+    {
+      "name": "singUP",
+      "prefix": "VUp",
+      "offsets": [90, 1190]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "VRight",
+      "offsets": [200, 410]
+    },
+    {
+      "name": "Tranform",
+      "prefix": "VTransformation",
+      "offsets": [-5, 450]
+    },
+    {
+      "name": "idle-alt",
+      "prefix": "VAltIdle",
+      "offsets": [-125, 156]
+    },
+    {
+      "name": "singLEFT-alt",
+      "prefix": "VAltLeft",
+      "offsets": [256, 88]
+    },
+    {
+      "name": "singDOWN-alt",
+      "prefix": "VAltDown",
+      "offsets": [22, -49]
+    },
+    {
+      "name": "singUP-alt",
+      "prefix": "VAltUp",
+      "offsets": [-37, 300]
+    },
+    {
+      "name": "singRIGHT-alt",
+      "prefix": "VAltRight",
+      "offsets": [-182, 42]
+    },
+    {
+      "name": "dialog1",
+	  "assetPath": "characters/Virtual/Mr_Virtual_V2_DIALOGUE",
+      "prefix": "VDialogue",
+      "offsets": [10, 520]
+    }
+  ]
+}

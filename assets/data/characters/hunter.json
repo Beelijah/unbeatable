@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "name": "Hunter",
+  "renderType": "sparrow",
+  "assetPath": "characters/beatus/YouCannotBeatUS_DuckHunt",
+  "flipX": false,
+  "singTime": 4,
+  "scale": 1,
+  "healthIcon": {
+    "id": "hunt"
+  },  
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle",
+      "offsets": [-85, 6]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Left",
+      "offsets": [-103, 6]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Down",
+      "offsets": [-105, 10]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Up",
+      "offsets": [-100, 6]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Right",
+      "offsets": [-78, 0]
+    }
+  ]
+}

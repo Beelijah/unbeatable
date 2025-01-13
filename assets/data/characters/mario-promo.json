@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "name": "Mario-Promo",
+  "renderType": "sparrow",
+  "assetPath": "characters/promotion/Mario_PromoShow",
+  "flipX": false,
+  "healthIcon": {
+    "id": "promo"
+  },
+  "singTime": 4.0,  
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "promario idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "promario left",
+      "offsets": [244, 6]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "promario down",
+      "offsets": [-6, -60]
+    },
+    {
+      "name": "singUP",
+      "prefix": "promario up",
+      "offsets": [-69, 62]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "promario right",
+      "offsets": [-192, -6]
+    },
+    {
+      "name": "idle-alt",
+      "prefix": "promario depressed idle",
+      "offsets": [-239, 0]
+    },
+    {
+      "name": "singLEFT-alt",
+      "prefix": "promario depressed left",
+      "offsets": [-236, 2]
+    },
+    {
+      "name": "singDOWN-alt",
+      "prefix": "promario depressed down",
+      "offsets": [-220, -22]
+    },
+    {
+      "name": "singUP-alt",
+      "prefix": "promario depressed up",
+      "offsets": [-246, 38]
+    },
+    {
+      "name": "singRIGHT-alt",
+      "prefix": "promario depressed right",
+      "offsets": [-239, -3]
+    },
+    {
+      "name": "depression",
+      "prefix": "promario transition idle",
+      "offsets": [7, 0]
+    }
+  ]
+}

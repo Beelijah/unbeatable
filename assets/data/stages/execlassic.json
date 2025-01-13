@@ -1,0 +1,133 @@
+{
+  "version": "1.0.0",
+  "cameraZoom": 0.5,
+  "props": [
+    {
+      "zIndex": 10,
+      "danceEvery": 0,
+      "position": [-1000, -850],
+      "scale": [1, 1],
+      "name": "bg",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.45, 0.45],
+      "assetPath": "mario/EXE1/Castillo fondo de hasta atras",
+      "animations": []
+    },
+    {
+      "zIndex": 30,
+      "danceEvery": 0,
+      "position": [-1400, 500],
+      "scale": [1, 1],
+      "name": "fireL",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "FIRE",	  
+      "scroll": [0.4, 0.4],
+      "assetPath": "mario/EXE1/starman/Starman_BG_Fire_Assets",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "fire anim effects",
+          "name": "FIRE",
+          "looped": true,
+          "flipX": false
+        }
+	  ]
+    },
+    {
+      "zIndex": 30,
+      "danceEvery": 0,
+      "position": [700, 500],
+      "scale": [1, 1],
+      "name": "fireR",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "delay", 
+      "scroll": [0.4, 0.4],
+      "assetPath": "mario/EXE1/starman/Starman_BG_Fire_Assets",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "frameIndices": [8,9,10,11,12,13,14,15,0,1,2,3,4,5,6,7],		  
+          "prefix": "fire anim effects",
+          "name": "delay",
+          "looped": true,
+          "flipX": true
+        }
+	  ]
+    },
+    {
+      "zIndex": 50,
+      "danceEvery": 0,
+      "position": [-1000, -850],
+      "scale": [1, 1],
+      "name": "castillo",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/EXE1/Suelo y brillo atmosferico",
+      "animations": []
+    },
+    {
+      "zIndex": 55,
+      "danceEvery": 0,
+      "position": [-1000, -850],
+      "scale": [1, 1],
+      "name": "suelo",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/EXE1/Arboles y sombra",
+      "animations": []
+    },
+    {
+      "zIndex": 60,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "fireOverlay",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.001,
+      "assetPath": "mario/EXE1/smoke",
+      "animations": []
+    },
+    {
+      "zIndex": 70,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "fogblack",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.8,
+      "assetPath": "mario/EXE1/dark",
+      "animations": []
+    }
+  ],
+  "characters": {
+    "bf": {
+      "zIndex": 200,
+      "position": [1200, 880],
+      "cameraOffsets": [-300, -100]
+    },
+    "gf": {
+      "zIndex": 100,
+      "position": [910, 780],
+      "cameraOffsets": [0, 0]
+    },
+    "dad": {
+      "zIndex": 300,
+      "position": [330, 880],
+      "cameraOffsets": [150, 0]
+    }
+  },
+  "name": "Execlassic"
+}

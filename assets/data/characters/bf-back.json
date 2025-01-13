@@ -1,0 +1,88 @@
+{
+  "version": "1.0.0",
+  "name": "Bf-Back",
+  "renderType": "multisparrow",
+  "assetPath": "characters/abandoned/Abandoned_BF_Assets",
+  "flipX": true,
+  "singTime": 4.0,
+    "healthIcon": {
+    "id": "bf-mario"
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Left0",
+      "offsets": [99, 7]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Down0",
+      "offsets": [-30, 129]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Up0",
+      "offsets": [-64, 45]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Right0",
+      "offsets": [-5, 31]
+    },
+    {
+      "name": "idle-3ds",
+	  "assetPath": "characters/abandoned/Abandoned_BF_3D_Assets",
+      "prefix": "3d Idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT-3ds",
+	  "assetPath": "characters/abandoned/Abandoned_BF_3D_Assets",
+      "prefix": "3d Left",
+      "offsets": [32, -35]
+    },
+    {
+      "name": "singDOWN-3ds",
+	  "assetPath": "characters/abandoned/Abandoned_BF_3D_Assets",
+      "prefix": "3d Down",
+      "offsets": [52, -49]
+    },
+    {
+      "name": "singUP-3ds",
+	  "assetPath": "characters/abandoned/Abandoned_BF_3D_Assets",
+      "prefix": "3d Up",
+      "offsets": [-40, 99]
+    },
+    {
+      "name": "singRIGHT-3ds",
+	  "assetPath": "characters/abandoned/Abandoned_BF_3D_Assets",
+      "prefix": "3d Right",
+      "offsets": [16, -3]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "LeftMiss",
+      "offsets": [100, 23]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "DownMiss",
+      "offsets": [-31, 132]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "UpMiss",
+      "offsets": [-55, 47]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "RightMiss",
+      "offsets": [-5, 30]
+    }
+  ]
+}

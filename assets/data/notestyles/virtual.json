@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "name": "Virtual",
+  "author": "Mario Madness",
+  "fallback": "funkin",
+  "assets": {
+    "note": {
+      "assetPath": "shared:Virtual_NOTE_assets",
+      "scale": 1,
+      "isPixel": true,
+      "data": {
+        "left": { "prefix": "noteLeft" },
+        "down": { "prefix": "noteDown" },
+        "up": { "prefix": "noteUp" },
+        "right": { "prefix": "noteRight" }
+      }
+    },
+    "noteStrumline": {
+      "assetPath": "shared:Virtual_NOTE_assets",
+      "scale": 1.1,
+      "offsets": [22, 32],
+      "isPixel": true,
+      "data": {
+        "leftStatic": { "prefix": "staticLeft0" },
+        "leftPress": { "prefix": "pressedLeft0" },
+        "leftConfirm": { "prefix": "confirmLeft0" },
+        "leftConfirmHold": { "prefix": "confirmLeft0" },
+        "downStatic": { "prefix": "staticDown0" },
+        "downPress": { "prefix": "pressedDown0" },
+        "downConfirm": { "prefix": "confirmDown0" },
+        "downConfirmHold": { "prefix": "confirmDown0" },
+        "upStatic": { "prefix": "staticUp0" },
+        "upPress": { "prefix": "pressedUp0" },
+        "upConfirm": { "prefix": "confirmUp0" },
+        "upConfirmHold": { "prefix": "confirmUp0" },
+        "rightStatic": { "prefix": "staticRight0" },
+        "rightPress": { "prefix": "pressedRight0" },
+        "rightConfirm": { "prefix": "confirmRight0" },
+        "rightConfirmHold": { "prefix": "confirmRight0" }
+      }
+    },
+    "holdNote": {
+      "assetPath": "shared:Virtual_NOTE_assetsENDS",
+      "scale": 4.0,
+      "isPixel": true,
+      "data": {}
+    },
+    "noteSplash": {
+      "assetPath": "",
+      "data": {
+        "enabled": false
+      }
+    },
+    "holdNoteCover": {
+      "assetPath": "",
+      "data": {
+        "enabled": false
+      }
+    }
+  }
+}

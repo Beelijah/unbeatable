@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "name": "Mr Sys",
+  "renderType": "sparrow",
+  "assetPath": "characters/beatus/YouCannotBeatUS_SuitGuy_Assets",
+  "flipX": false,
+  "singTime": 4,
+  "scale": 1.2,
+  "healthIcon": {
+    "id": "sys"
+  },  
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Left",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Down",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Up",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Right",
+      "offsets": [0, 0]
+    }
+  ]
+}

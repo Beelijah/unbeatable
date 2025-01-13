@@ -1,0 +1,510 @@
+{
+  "version": "1.0.0",
+  "cameraZoom": 0.5,
+  "props": [
+    {
+      "zIndex": 10,
+      "danceEvery": 0,
+      "position": [-1500, -650],
+      "scale": [1, 1],
+      "name": "castleFloor",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/TooLateBG/feet/Overdue_Final_BG_floorfixed",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "Floor",
+          "name": "idle",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "Floor",
+          "name": "loop",
+          "looped": true,
+          "flipX": false
+        }		
+	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 20,
+      "danceEvery": 0,
+      "position": [-1500, -1100],
+      "scale": [1, 1],
+      "name": "castleCeiling",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.2, 0.2],
+      "assetPath": "mario/TooLateBG/feet/Overdue_Final_BG_topfixed",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "Top",
+          "name": "idle",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "Top",
+          "name": "loop",
+          "looped": true,
+          "flipX": false
+        }		  
+	  
+	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 50,
+      "danceEvery": 0,
+      "position": [-1400, -550],
+      "scale": [1, 1],
+      "name": "street1",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [0.95, 0.95],
+      "assetPath": "mario/TooLateBG/street/BackTrees",
+      "animations": []
+    },
+    {
+      "zIndex": 50,
+      "danceEvery": 0,
+      "position": [-1400, -550],
+      "scale": [1, 1],
+      "name": "street2",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [1.05, 1.05],
+      "assetPath": "mario/TooLateBG/street/Front Trees",
+      "animations": []
+    },
+    {
+      "zIndex": 50,
+      "danceEvery": 0,
+      "position": [-1400, -550],
+      "scale": [1, 1],
+      "name": "street3",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [1, 1],
+      "assetPath": "mario/TooLateBG/street/Road",
+      "animations": []
+    },
+    {
+      "zIndex": 50,
+      "danceEvery": 0,
+      "position": [-1400, -550],
+      "scale": [1, 1],
+      "name": "street4",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [1, 1],
+      "assetPath": "mario/TooLateBG/street/car",
+      "animations": []
+    },
+    {
+      "zIndex": 50,
+      "danceEvery": 0,
+      "position": [-1600, -550],
+      "scale": [1, 1],
+      "name": "streetFore",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [1.2, 1],
+      "assetPath": "mario/TooLateBG/street/Foreground Trees",
+      "animations": []
+    },
+    {
+      "zIndex": 55,
+      "danceEvery": 0,
+      "position": [-2350, -1350],
+      "scale": [1, 1],
+      "name": "meat1",
+      "animType": "sparrow",
+	  "alpha": 0.00001,
+      "isPixel": false,	  
+      "scroll": [0.2, 0.2],
+      "assetPath": "mario/TooLateBG/meat/TL_Meat_Sky",
+      "animations": []
+    },
+    {
+      "zIndex": 60,
+      "danceEvery": 0,
+      "position": [-2350, -1350],
+      "scale": [1, 1],
+      "name": "meat2",
+      "animType": "sparrow",
+	  "alpha": 0.00001,
+      "isPixel": false,	  
+      "scroll": [0.4, 0.4],
+      "assetPath": "mario/TooLateBG/meat/TL_Meat_FarBG",
+      "animations": []
+    },
+    {
+      "zIndex": 65,
+      "danceEvery": 0,
+      "position": [-2350, -1350],
+      "scale": [1, 1],
+      "name": "meat3",
+      "animType": "sparrow",
+	  "alpha": 0.00001,
+      "isPixel": false,	  
+      "scroll": [0.6, 0.6],
+      "assetPath": "mario/TooLateBG/meat/TL_Meat_MedBG",
+      "animations": []
+    },
+    {
+      "zIndex": 70,
+      "danceEvery": 0,
+      "position": [-2350, -1350],
+      "scale": [1, 1],
+      "name": "meat4",
+      "animType": "sparrow",
+	  "alpha": 0.00001,
+      "isPixel": false,	  
+      "scroll": [0.8, 0.8],
+      "assetPath": "mario/TooLateBG/meat/TL_Meat_BG",
+      "animations": []
+    },
+    {
+      "zIndex": 75,
+      "danceEvery": 0,
+      "position": [-2350, -1350],
+      "scale": [1, 1],
+      "name": "meat5",
+      "animType": "sparrow",
+	  "alpha": 0.00001,
+      "isPixel": false,	  
+      "scroll": [1, 1],
+      "assetPath": "mario/TooLateBG/meat/TL_Meat_Ground",
+      "animations": []
+    },
+    {
+      "zIndex": 75,
+      "danceEvery": 0,
+      "position": [530, -100],
+      "scale": [1, 1],
+      "name": "meat6",
+      "animType": "sparrow",
+	  "alpha": 0.00001,
+      "isPixel": false,	  
+      "scroll": [1, 1],
+      "assetPath": "mario/TooLateBG/meat/TL_Meat_Pupil",
+      "animations": []
+    },
+    {
+      "zIndex": 500,
+      "danceEvery": 0,
+      "position": [1310, -955],
+      "scale": [1, 1],
+      "name": "meat7",
+      "animType": "sparrow",
+	  "alpha": 0.00001,
+      "isPixel": false,	  
+      "scroll": [1.15, 1.15],
+      "assetPath": "mario/TooLateBG/meat/TL_Meat_FG_string",
+      "animations": []
+    },
+    {
+      "zIndex": 1000,
+      "danceEvery": 0,
+      "position": [-1071, 1419],
+      "scale": [1, 1],
+      "name": "meat8",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [1.15, 1.15],
+      "assetPath": "mario/TooLateBG/meat/TL_Meat_FG_bottomteeth",
+      "animations": []
+    },
+    {
+      "zIndex": 1000,
+      "danceEvery": 0,
+      "position": [-1440, -1350],
+      "scale": [1, 1],
+      "name": "meat9",
+      "animType": "sparrow",
+	  "alpha": 0.00001,
+      "isPixel": false,	  
+      "scroll": [1.15, 1.15],
+      "assetPath": "mario/TooLateBG/meat/TL_Meat_FG_topteeth",
+      "animations": []
+    },
+    {
+      "zIndex": 1000,
+      "danceEvery": 0,
+      "position": [-1400, -2839],
+      "scale": [1, 1],
+      "name": "meat10",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [1.15, 1.15],
+      "assetPath": "mario/TooLateBG/meat/TL_Meat_FG_topteeth2",
+      "animations": []
+    },
+    {
+      "zIndex": 1000,
+      "danceEvery": 0,
+      "position": [-2280, -1400],
+      "scale": [1, 1],
+      "name": "meat11",
+      "animType": "sparrow",
+	  "alpha": 0.00001,
+      "isPixel": false,	  
+      "scroll": [1.35, 1.35],
+      "assetPath": "mario/TooLateBG/meat/TL_Meat_CloseFG",
+      "animations": []
+    },
+    {
+      "zIndex": 0,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "fogblack",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [1, 1],
+      "assetPath": "mario/TooLateBG/street/126",
+      "animations": []
+    },
+    {
+      "zIndex": 0,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "meatfog",
+      "animType": "sparrow",
+      "isPixel": false,	 
+	  "alpha": 0.00001,
+      "scroll": [1, 1],
+      "assetPath": "mario/TooLateBG/meat/TL_Meat_Fog",
+      "animations": []
+    },
+    {
+      "zIndex": 0,
+      "danceEvery": 0,
+      "position": [50, 850],
+      "scale": [0.65, 0.65],
+      "name": "gunammo",
+      "animType": "sparrow",
+      "isPixel": false,	 
+	  "alpha": 0.8,
+      "scroll": [1, 1],
+      "assetPath": "mario/TooLateBG/street/Bullet Ammo",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 5,
+          "prefix": "Bullet Ammo 3",
+          "name": "Bullet 3",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 5,
+          "prefix": "Bullet Ammo 2",
+          "name": "Bullet 2",
+          "looped": false,
+          "flipX": false
+        },	
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 5,
+          "prefix": "Bullet Ammo 1",
+          "name": "Bullet 1",
+          "looped": false,
+          "flipX": false
+        },	
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 5,
+          "prefix": "Bullet Ammo 0",
+          "name": "Bullet 0",
+          "looped": false,
+          "flipX": false
+        }		
+	  ]
+    },
+    {
+      "zIndex": 300,
+      "danceEvery": 2,
+      "position": [1100, 450],
+      "scale": [1, 1],
+      "name": "picobody",
+      "animType": "sparrow",
+	  "startingAnimation": "idle",
+      "isPixel": false,
+      "alpha": 0.00001,	  
+      "scroll": [1, 1],
+      "assetPath": "characters/Too_Late_Pico_FINALSEQUENCE_assets",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "TopIdle",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        },
+	    {
+          "offsets": [165, 16],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "TopLeftFront",
+          "name": "singLEFT",
+          "looped": false,
+          "flipX": false
+        },	
+	    {
+          "offsets": [-80, 35],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "TopDown",
+          "name": "singDOWN",
+          "looped": false,
+          "flipX": false
+        },	
+	    {
+          "offsets": [-90, 25],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "TopUpFront",
+          "name": "singUP",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [-141, -14],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "TopRightFront",
+          "name": "singRIGHT",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "TopDialgoue",
+          "name": "dialog1",
+          "looped": false,
+          "flipX": false
+        }			
+	  ]
+    },
+    {
+      "zIndex": 290,
+      "danceEvery": 2,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "picoarm",
+      "animType": "sparrow",
+      "isPixel": false,	 
+	  "alpha": 0.00001,
+      "scroll": [1, 1],
+      "assetPath": "characters/Too_Late_Pico_FINALSEQUENCE_assets",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "TopLeftBack",
+          "name": "idle",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [-222, -207],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "TopLeftBack",
+          "name": "singLEFT",
+          "looped": false,
+          "flipX": false
+        },	
+	    {
+          "offsets": [-273, -180],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "TopUpBack",
+          "name": "singUP",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [-50, -200],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "TopRightBack",
+          "name": "singRIGHT",
+          "looped": false,
+          "flipX": false
+        }			
+	  ]
+    },
+    {
+      "zIndex": 280,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "picoleg",
+      "animType": "sparrow",
+	  "startingAnimation": "idle",
+      "isPixel": false,	
+      "alpha": 0.00001,	  
+      "scroll": [1, 1],
+      "assetPath": "characters/Too_Late_Pico_FINALSEQUENCE_assets",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 32,
+          "prefix": "Legs",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }		
+	  ]
+    }
+  ],
+  "characters": {
+    "bf": {
+      "zIndex": 400,
+      "position": [1200, 760],
+      "cameraOffsets": [-350, -100]
+    },
+    "gf": {
+      "zIndex": 300,
+      "position": [987, 960],
+      "cameraOffsets": [0, 0]
+    },
+    "dad": {
+      "zIndex": 500,
+      "position": [-500, 1060],
+      "cameraOffsets": [450, -300]
+    }
+  },
+  "name": "Meatworld"
+}

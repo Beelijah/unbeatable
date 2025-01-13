@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "name": "Gf-allstar",
+  "renderType": "sparrow",
+  "assetPath": "characters/AllStars_Girlfriend_Assets_v2",
+  "flipX": false,
+  "singTime": 4.0,
+  "healthIcon": {
+    "id": "gf"
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "GFIdle",
+      "offsets": [-52, 106]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "GFLeft",
+      "offsets": [49, 99]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "GFDown",
+      "offsets": [-16, 75]
+    },
+    {
+      "name": "singUP",
+      "prefix": "GFUp",
+      "offsets": [-76, 137]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "GFRight",
+      "offsets": [-105, 107]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "GFMissLeft",
+      "offsets": [51, 115]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "GFMissDown",
+      "offsets": [-17, 108]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "GFMissUp",
+      "offsets": [-90, 137]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "GFMissRight",
+      "offsets": [-106, 118]
+    }
+  ]
+}

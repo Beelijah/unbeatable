@@ -1,0 +1,120 @@
+{
+  "version": "1.0.0",
+  "name": "MarioSS",
+  "renderType": "multisparrow",
+  "assetPath": "characters/SS_AltMario_Assets",
+  "flipX": false,
+  "singTime": 4.0,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "MarioIdle0",
+      "offsets": [-64, 156]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "MarioLeft0",
+      "offsets": [263, 30]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "MarioDown0",
+      "offsets": [108, -100]
+    },
+    {
+      "name": "singUP",
+      "prefix": "MarioUp0",
+      "offsets": [273, 332]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "MarioRight0",
+      "offsets": [-143, -8]
+    },
+    {
+      "name": "xd",
+      "prefix": "MarioFalling",
+      "offsets": [-110, -60]
+    },
+	    {
+      "name": "idle-alt",
+	  "assetPath": "characters/Peach_EXE_Assets_New",
+      "prefix": "PeachIdle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT-alt",
+	  "assetPath": "characters/Peach_EXE_Assets_New",
+      "prefix": "PeachLeft",
+      "offsets": [433, -210]
+    },
+    {
+      "name": "singDOWN-alt",
+	  "assetPath": "characters/Peach_EXE_Assets_New",
+      "prefix": "PeachDown",
+      "offsets": [248, -270]
+    },
+    {
+      "name": "singUP-alt",
+	  "assetPath": "characters/Peach_EXE_Assets_New",
+      "prefix": "PeachUp",
+      "offsets": [40, 256]
+    },
+    {
+      "name": "singRIGHT-alt",
+	  "assetPath": "characters/Peach_EXE_Assets_New",
+      "prefix": "PeachRight",
+      "offsets": [17, -170]
+    },
+	{
+      "name": "idle-melted",
+	  "assetPath": "characters/Melted_MarioEXE_Assets",
+      "prefix": "meltio idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT-melted",
+	  "assetPath": "characters/Melted_MarioEXE_Assets",
+      "prefix": "meltio left",
+      "offsets": [89, 68]
+    },
+    {
+      "name": "singDOWN-melted",
+	  "assetPath": "characters/Melted_MarioEXE_Assets",
+      "prefix": "meltio down",
+      "offsets": [1, -321]
+    },
+    {
+      "name": "singUP-melted",
+	  "assetPath": "characters/Melted_MarioEXE_Assets",
+      "prefix": "meltio up",
+      "offsets": [-57, 367]
+    },
+    {
+      "name": "singRIGHT-melted",
+	  "assetPath": "characters/Melted_MarioEXE_Assets",
+      "prefix": "meltio right",
+      "offsets": [32, -34]
+    },
+    {
+      "name": "jump",
+	  "assetPath": "characters/Melted_MarioEXE_Assets",
+	  "looped": true,
+      "prefix": "meltio jump0",
+      "offsets": [40, 130]
+    },
+	{
+      "name": "fall",
+	  "assetPath": "characters/Melted_MarioEXE_Assets",
+	  "looped": true,
+      "prefix": "meltio jump 2",
+      "offsets": [90, 70]
+    },
+	{
+      "name": "end",
+	  "assetPath": "characters/Melted_MarioEXE_Assets",
+      "prefix": "meltio scream",
+      "offsets": [0, 80]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "name": "Luigi-Toolate",
+  "renderType": "multisparrow",
+  "assetPath": "characters/Too_Late_Luigi_Assets_causape",
+  "flipX": false,
+  "singTime": 4.0,
+  "healthIcon": {
+    "id": "mrl"
+  },  
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "LuigiIdle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "LuigiLeft",
+      "offsets": [553, -51]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "LuigiDown",
+      "offsets": [204, -240]
+    },
+    {
+      "name": "singUP",
+      "prefix": "LuigiUp",
+      "offsets": [175, 617]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "LuigiRight",
+      "offsets": [-28, 59]
+    },
+    {
+      "name": "Laugh",
+      "prefix": "LuigiLaugh",
+      "offsets": [-18, 57]
+    },
+    {
+      "name": "idle-alt",
+      "prefix": "FakerIdle",
+      "offsets": [161, -331]
+    },
+    {
+      "name": "singLEFT-alt",
+      "prefix": "FakerLeft",
+      "offsets": [229, -328]
+    },
+    {
+      "name": "singDOWN-alt",
+      "prefix": "FakerDown",
+      "offsets": [174, -355]
+    },
+    {
+      "name": "singUP-alt",
+      "prefix": "FakerUp",
+      "offsets": [156, -315]
+    },
+    {
+      "name": "singRIGHT-alt",
+      "prefix": "FakerRight",
+      "offsets": [130, -338]
+    },
+    {
+      "name": "Tranform",
+      "prefix": "LuigiTransformation",
+      "offsets": [158, 57]
+    }
+  ]
+}

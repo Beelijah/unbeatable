@@ -1,0 +1,213 @@
+{
+  "version": "1.0.0",
+  "cameraZoom": 0.5,
+  "props": [
+     {
+      "zIndex": 9,
+      "danceEvery": 0,
+      "position": [-400, -200],
+      "scale": [1, 1],
+      "name": "yourhead",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [1, 1],
+	  "alpha": 0.0001,
+      "assetPath": "mario/virtual/headbg",
+      "animations": []
+    },
+    {
+      "zIndex": 10,
+      "danceEvery": 0,
+      "position": [-1200, -750],
+      "scale": [1, 1],
+      "name": "vwall",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [0.6, 0.6],
+      "assetPath": "mario/virtual/Wall Bg",
+      "animations": []
+    },
+    {
+      "zIndex": 20,
+      "danceEvery": 0,
+      "position": [-1200, -750],
+      "scale": [1, 1],
+      "name": "backFloor",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.75, 0.75],
+      "assetPath": "mario/virtual/Back Platform",
+      "animations": []
+    },
+    {
+      "zIndex": 20,
+      "danceEvery": 2,
+      "position": [800, 250],
+      "scale": [0.8, 0.8],
+      "name": "turtle",
+      "animType": "sparrow",
+	  "startingAnimation": "idle",
+      "isPixel": false,
+	  "alpha": 0.0001,
+      "scroll": [0.75, 0.75],
+      "assetPath": "mario/virtual/v_koopa_thorny",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "glitch in",
+          "name": "glitch",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "Koopa Idle Glitch",
+          "name": "idle",
+          "looped": false,
+          "flipX": false
+        }		
+	  ]
+    },
+    {
+      "zIndex": 20,
+      "danceEvery": 2,
+      "position": [200, 250],
+      "scale": [0.8, 0.8],
+      "name": "turtle2",
+      "animType": "sparrow",
+	  "startingAnimation": "idle",
+      "isPixel": false,
+	  "alpha": 0.0001,
+      "scroll": [0.75, 0.75],
+      "assetPath": "mario/virtual/v_koopa_thorny",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "glitch in",
+          "name": "glitch",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "Koopa Idle Glitch",
+          "name": "idle",
+          "looped": false,
+          "flipX": false
+        }		
+	  ]
+    },
+    {
+      "zIndex": 19,
+      "danceEvery": 0,
+      "position": [900, 0],
+      "scale": [1, 1],
+      "name": "gfwasTaken",
+      "animType": "sparrow",
+      "isPixel": false,
+      "alpha": 0.001,	  
+      "scroll": [0.75, 0.75],
+      "assetPath": "characters/Virtual/Mr_Virtual_Girlfriend_Assets_jaj",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "GF Dies lol",
+          "name": "dies",
+          "looped": false,
+          "flipX": false
+        }	  
+	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 19,
+      "danceEvery": 0,
+      "position": [-1200, -750],
+      "scale": [1, 1],
+      "name": "backPipes",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [0.75, 0.75],
+      "assetPath": "mario/virtual/Back Pipes",
+      "animations": []
+    },
+    {
+      "zIndex": 50,
+      "danceEvery": 0,
+      "position": [-1200, -750],
+      "scale": [1, 1],
+      "name": "frontFloor",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [1, 1],
+      "assetPath": "mario/virtual/Main Platform",
+      "animations": []
+    },
+    {
+      "zIndex": 30,
+      "danceEvery": 0,
+      "position": [-1200, -750],
+      "scale": [1, 1],
+      "name": "frontPipes",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [1, 1],
+      "assetPath": "mario/virtual/Front Pipes",
+      "animations": []
+    },
+    {
+      "zIndex": 30,
+      "danceEvery": 0,
+      "position": [-1400, -600],
+      "scale": [1, 1],
+      "name": "cornerPipes",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [0.75, 0.75],
+      "assetPath": "mario/virtual/Corner top Left Pipes",
+      "animations": []
+    },
+    {
+      "zIndex": 30,
+      "danceEvery": 0,
+      "position": [-1200, -170],
+      "scale": [1, 1],
+      "name": "crazyFloor",
+      "animType": "sparrow",
+      "isPixel": false,
+      "alpha": 0.0001,	  
+      "scroll": [1, 1],
+      "assetPath": "mario/virtual/Platform",
+      "animations": []
+    }
+  ],
+  "characters": {
+    "bf": {
+      "zIndex": 400,
+      "position": [1310, 860],
+      "cameraOffsets": [-350, -100]
+    },
+    "gf": {
+      "zIndex": 19,
+      "position": [700, 60],
+      "cameraOffsets": [0, 0]
+    },
+    "dad": {
+      "zIndex": 500,
+      "position": [300, 900],
+      "cameraOffsets": [-10, -150]
+    }
+  },
+  "name": "Virtual"
+}

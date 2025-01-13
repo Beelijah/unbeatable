@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "name": "BetaLuigi",
+  "renderType": "sparrow",
+  "assetPath": "characters/Beta_Luigi_Assets",
+  "flipX": false,
+  "singTime": 4.0,
+  "scale": 1.2,
+  "healthIcon": {
+    "id": "beta2"
+  },  
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "LuigiIdle",
+      "offsets": [-135, -42]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "LuigiLeft",
+      "offsets": [-43, -49]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "LuigiDown",
+      "offsets": [-115, -115]
+    },
+    {
+      "name": "singUP",
+      "prefix": "LuigiUp",
+      "offsets": [-9, -17]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "LuigiRight",
+      "offsets": [-175, -68]
+    },
+    {
+      "name": "idle-alt",
+      "prefix": "LuigiSitIdle",
+      "offsets": [-150, -190]
+    },
+    {
+      "name": "singLEFT-alt",
+      "prefix": "LuigiSitLeft",
+      "offsets": [-113, -191]
+    },
+    {
+      "name": "singDOWN-alt",
+      "prefix": "LuigiSitDown",
+      "offsets": [-112, -193]
+    },
+    {
+      "name": "singUP-alt",
+      "prefix": "LuigiSitUp",
+      "offsets": [-115, -184]
+    },
+    {
+      "name": "singRIGHT-alt",
+      "prefix": "LuigiSitRight",
+      "offsets": [-150, -190]
+    },
+    {
+      "name": "stand",
+      "prefix": "LuigiStandingUp",
+      "offsets": [-148, -44]
+    }
+  ]
+}

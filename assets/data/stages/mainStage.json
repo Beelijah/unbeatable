@@ -1,39 +1,16 @@
 {
   "props": [
     {
+      "zIndex": 5000,
       "danceEvery": 0,
-      "zIndex": 10,
-      "position": [-600, -200],
-      "scale": [1, 1],
+      "position": [0, 0],
+      "scale": [50, 50],
+      "name": "backgroundlol",
       "animType": "sparrow",
-      "name": "stageBack",
-      "isPixel": false,
-      "assetPath": "stageback",
-      "scroll": [0.9, 0.9],
-      "animations": []
-    },
-    {
-      "danceEvery": 0,
-      "zIndex": 20,
-      "position": [-650, 600],
-      "scale": [1.1, 1.1],
-      "animType": "sparrow",
-      "name": "stageFront",
-      "isPixel": false,
-      "assetPath": "stagefront",
-      "scroll": [0.9, 0.9],
-      "animations": []
-    },
-    {
-      "danceEvery": 0,
-      "zIndex": 30,
-      "position": [-500, -300],
-      "scale": [0.9, 0.9],
-      "animType": "sparrow",
-      "name": "stageCurtains",
-      "isPixel": false,
-      "assetPath": "stagecurtains",
-      "scroll": [1.3, 1.3],
+      "isPixel": true,
+      "scroll": [0, 0],
+	  "alpha": 0.00001,
+      "assetPath": "mario/beatus/unbeatableback",
       "animations": []
     }
   ],

@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "name": "Bf-Allstar",
+  "renderType": "sparrow",
+  "assetPath": "characters/MM_Boyfriend_Assets_CAUSAPE",
+  "flipX": true,
+  "singTime": 4.0,
+    "healthIcon": {
+    "id": "bf-mario"
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "IDLE",
+      "offsets": [-4, 30]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "LEFT",
+      "offsets": [4, 31]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "DOWN",
+      "offsets": [-26, -4]
+    },
+    {
+      "name": "singUP",
+      "prefix": "UP",
+      "offsets": [-30, 92]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "RIGHT",
+      "offsets": [-46, 31]
+    },
+    {
+      "name": "singLEFT-alt",
+      "prefix": "COOLLEFT",
+      "offsets": [47, 34]
+    },
+    {
+      "name": "singDOWN-alt",
+      "prefix": "COOLDOWN",
+      "offsets": [-20, -32]
+    },
+    {
+      "name": "singUP-alt",
+      "prefix": "COOLUP",
+      "offsets": [-29, 150]
+    },
+    {
+      "name": "singRIGHT-alt",
+      "prefix": "COOLRIGHT",
+      "offsets": [-10, 20]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "MISSLEFT",
+      "offsets": [3, 37]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "MISSDOWN",
+      "offsets": [-29, 40]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "MISSUP",
+      "offsets": [-28, 94]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "MISSRIGHT",
+      "offsets": [-43, 63]
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "version": "1.0.0",
+  "cameraZoom": 0.6,
+  "props": [
+    {
+      "zIndex": 950,
+      "danceEvery": 0,
+      "position": [-1250, -1100],
+      "scale": [1, 1],
+      "name": "bg",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/MX/MXBG1_2",
+      "animations": []
+    },
+    {
+      "zIndex": 1500,
+      "danceEvery": 0,
+      "position": [-1250, -1100],
+      "scale": [1, 1],
+      "name": "lightmx",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "FIRE",	  
+      "scroll": [1, 1],
+      "assetPath": "mario/MX/MXBG1_3",
+      "animations": []
+    },
+    {
+      "zIndex": 25,
+      "danceEvery": 0,
+      "position": [-1920, -1680],
+      "scale": [1, 1],
+      "name": "fullbg",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/MX/1",
+      "animations": []
+    },
+    {
+      "zIndex": 30,
+      "danceEvery": 0,
+      "position": [294, -319],
+      "scale": [1, 1],
+      "name": "creppyleaf",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle", 
+      "scroll": [0.8, 0.8],
+      "assetPath": "mario/MX/MX_BG_Assets_2",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "BushIdle",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "BushBlink",
+          "name": "blink",
+          "looped": false,
+          "flipX": false
+        }
+	  ]
+    },
+    {
+      "zIndex": 30,
+      "danceEvery": 1,
+      "position": [-400, -1233],
+      "scale": [1, 1],
+      "name": "creepyCloud",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle", 
+      "scroll": [0.6, 0.6],
+      "assetPath": "mario/MX/MX_BG_Assets_2",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "Cloud",
+          "name": "idle",
+          "looped": false,
+          "flipX": false
+        }
+	  ]
+    },
+    {
+      "zIndex": 50,
+      "danceEvery": 0,
+      "position": [-1920, -1680],
+      "scale": [1, 1],
+      "name": "bgfloor",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/MX/2",
+      "animations": []
+    },
+    {
+      "zIndex": 60,
+      "danceEvery": 0,
+      "position": [-1920, -1680],
+      "scale": [1, 1],
+      "name": "shadowbg",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/MX/3",
+      "animations": []
+    },
+    {
+      "zIndex": 65,
+      "danceEvery": 0,
+      "position": [1763, -170],
+      "scale": [1, 1],
+      "name": "luigiempa",
+      "animType": "sparrow",
+      "isPixel": false,
+	  "startingAnimation": "idle", 
+      "scroll": [1, 1],
+      "assetPath": "mario/MX/MX_BG_Assets_1",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "LucasHead",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }	  
+	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 70,
+      "danceEvery": 0,
+      "position": [1383, 360],
+      "scale": [1, 1],
+      "name": "luigibody",
+      "animType": "sparrow",
+      "isPixel": false,
+	  "startingAnimation": "idle", 
+      "scroll": [1, 1],
+      "assetPath": "mario/MX/MX_BG_Assets_1",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "Lucasody",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }	  
+	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 75,
+      "danceEvery": 0,
+      "position": [183, 370],
+      "scale": [1, 1],
+      "name": "dedtoad",
+      "animType": "sparrow",
+      "isPixel": false,
+	  "startingAnimation": "idle", 
+      "scroll": [1, 1],
+      "assetPath": "mario/MX/MX_BG_Assets_1",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "ToadBody",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }	  
+	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 80,
+      "danceEvery": 0,
+      "position": [-1600, 200],
+      "scale": [1, 1],
+      "name": "gfwasTaken",
+      "animType": "sparrow",
+      "isPixel": false,
+	  "startingAnimation": "idle", 
+      "scroll": [1, 1],
+	  "alpha": 0.0001,
+      "assetPath": "mario/MX/MX_v2_Assets_gfdiesepico",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 32,	  
+          "prefix": "GFDies2",
+          "name": "idle",
+          "looped": false,
+          "flipX": false
+        }	  
+	   ]
+    },
+    {
+      "zIndex": 1220,
+      "danceEvery": 0,
+      "position": [1150, 185],
+      "scale": [1, 1],
+      "name": "funnylayer0",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.0001,
+      "assetPath": "mario/MX/MM_Boyfriend_Assets_jump",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 30,	  
+          "prefix": "JUMP0",
+          "name": "jump",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "JUMPLAND0",
+          "name": "jumpend",
+          "looped": false,
+          "flipX": false
+        }		
+	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 500,
+      "danceEvery": 0,
+      "position": [-500, -1000],
+      "scale": [1, 1],
+      "name": "turnevil",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.0001,
+      "assetPath": "mario/MX/MX_Transformation_Assets",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "MX Transformation",
+          "name": "laugh",
+          "looped": false,
+          "flipX": false
+        }	
+	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 500,
+      "danceEvery": 0,
+      "position": [-1150, 200],
+      "scale": [1, 1],
+      "name": "mxLaughNEW",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.0001,
+      "assetPath": "mario/MX/MX_Dialogue_Asseta",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 32,	  
+          "prefix": "Innocence",
+          "name": "freddyfazbear",
+          "looped": false,
+          "flipX": false
+        }	
+	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 550,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "estatica",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.05,
+	  "startingAnimation": "idle", 
+      "assetPath": "Mario_static",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 15,	  
+          "prefix": "static play",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }	
+	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 500,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "mxscreen",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.0001,
+      "assetPath": "mxscreen",
+      "animations": []
+    }
+  ],
+  "characters": {
+    "bf": {
+      "zIndex": 1200,
+      "position": [1430, 900],
+      "cameraOffsets": [-300, -100]
+    },
+    "gf": {
+      "zIndex": 1100,
+      "position": [1060, 780],
+      "cameraOffsets": [0, 0]
+    },
+    "dad": {
+      "zIndex": 1300,
+      "position": [330, 880],
+      "cameraOffsets": [150, 0]
+    }
+  },
+  "name": "Exeport"
+}

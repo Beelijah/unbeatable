@@ -1,0 +1,133 @@
+{
+  "version": "1.0.0",
+  "cameraZoom": 0.8,
+  "props": [
+    {
+      "zIndex": 20,
+      "danceEvery": 0,
+      "position": [-800, -600],
+      "scale": [1, 1],
+      "name": "fondaso",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/abandoned/fondo",
+      "animations": []
+    },
+    {
+      "zIndex": 25,
+      "danceEvery": 0,
+      "position": [-800, -600],
+      "scale": [1, 1],
+      "name": "atra",
+      "animType": "sparrow",
+      "isPixel": false,  
+      "scroll": [1, 1],
+      "assetPath": "mario/abandoned/atras",
+      "animations": []
+    },
+    {
+      "zIndex": 61,
+      "danceEvery": 0,
+      "position": [-800, -600],
+      "scale": [1, 1],
+      "name": "adel",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/abandoned/adelante",
+      "animations": []
+    },
+    {
+      "zIndex": 56,
+      "danceEvery": 0,
+      "position": [-800, -620],
+      "scale": [1, 1],
+      "name": "fondaso2",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/abandoned/Wall and buildings",
+      "animations": []
+    },
+    {
+      "zIndex": 57,
+      "danceEvery": 0,
+      "position": [-800, -620],
+      "scale": [1, 1],
+      "name": "atra2",
+      "animType": "sparrow",
+      "isPixel": false,  
+      "scroll": [1, 1],
+      "assetPath": "mario/abandoned/Middle",
+      "animations": []
+    },
+    {
+      "zIndex": 61,
+      "danceEvery": 0,
+      "position": [-800, -620],
+      "scale": [1, 1],
+      "name": "adel2",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/abandoned/Front BG",
+      "animations": []
+    },
+    {
+      "zIndex": 61,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "thefog",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0,
+      "assetPath": "mario/abandoned/fog",
+      "animations": []
+    },
+    {
+      "zIndex": 61,
+      "danceEvery": 0,
+      "position": [0, 720],
+      "scale": [1, 1],
+      "name": "flood",
+      "animType": "sparrow",
+	  "startingAnimation": "idle",
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.7,
+      "assetPath": "mario/abandoned/Flood_Assets",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "water overlay",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }
+	  ]
+    }
+  ],
+  "characters": {
+    "bf": {
+      "zIndex": 70,
+      "position": [1160, 820],
+      "cameraOffsets": [-200, -200]
+    },
+    "gf": {
+      "zIndex": 29,
+      "position": [450, 1020],
+      "cameraOffsets": [0, 0]
+    },
+    "dad": {
+      "zIndex": 60,
+      "position": [450, 260],
+      "cameraOffsets": [0, 0]
+    }
+  },
+  "name": "WetWorld"
+}

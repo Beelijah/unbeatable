@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "name": "Bf-Ghost",
+  "renderType": "sparrow",
+  "assetPath": "characters/MM_Boyfriend_Alone_Assetsa",
+  "flipX": true,
+  "singTime": 4.0,
+  "healthIcon": {
+    "id": "bfghost"
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "BFIdle",
+      "offsets": [-4, 30]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "BFLeft0",
+      "offsets": [15, 30]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "BFDown0",
+      "offsets": [-9, 2]
+    },
+    {
+      "name": "singUP",
+      "prefix": "BFUp0",
+      "offsets": [-32, 52]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "BFRight0",
+      "offsets": [-58, 31]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "BFLeftMiss",
+      "offsets": [15, 31]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "BFDownMiss",
+      "offsets": [-7, 6]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "BFUpMiss",
+      "offsets": [-31, 54]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "BFRightMiss",
+      "offsets": [-55, 35]
+    }
+  ]
+}

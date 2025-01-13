@@ -1,0 +1,95 @@
+{
+  "version": "1.0.0",
+  "cameraZoom": 0.6,
+  "props": [
+    {
+      "zIndex": 10,
+      "danceEvery": 0,
+      "position": [-800, 300],
+      "scale": [1, 1],
+      "name": "floordemise",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle", 
+      "scroll": [1, 1],
+      "assetPath": "mario/MX/demise/1/Demise_BG_suelo",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 60,	  
+          "prefix": "Floor",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }
+	  ]
+    },
+    {
+      "zIndex": 5,
+      "danceEvery": 0,
+      "position": [-800, 300],
+      "scale": [1, 1],
+      "name": "underfloordemise",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle", 
+      "scroll": [1, 1],
+	  "alpha": 1,
+      "assetPath": "mario/MX/demise/2/Demise_BG2_suelo",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 60,	  
+          "prefix": "Floor",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }
+	  ]
+    },
+    {
+      "zIndex": 5,
+      "danceEvery": 0,
+      "position": [-800, -1050],
+      "scale": [1, 1],
+      "name": "underroofdemise",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle", 
+      "scroll": [1, 1],
+	  "alpha": 1,
+      "assetPath": "mario/MX/demise/2/Demise_BG2_techo",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 60,	  
+          "prefix": "Celling",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }
+	  ]
+    }
+  ],
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [400, 720],
+      "cameraOffsets": [130, -220]
+    },
+    "gf": {
+      "zIndex": 100,
+      "position": [1060, 780],
+      "cameraOffsets": [0, 0]
+    },
+    "dad": {
+      "zIndex": 400,
+      "position": [1830, 500],
+      "cameraOffsets": [-500, 0]
+    }
+  },
+  "name": "Demiseport"
+}

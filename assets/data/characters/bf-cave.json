@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "name": "Bf-Cave",
+  "renderType": "multisparrow",
+  "assetPath": "characters/dad7/cavebfpixel",
+  "flipX": true,
+  "singTime": 4.0,
+  "isPixel": true,
+  "scale": 12,
+  "healthIcon": {
+    "id": "cavebf"
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "cavebfpixel idle",
+	  "frameRate": 12,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "cavebfpixel left",
+	  	  "frameRate": 12,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "cavebfpixel down",
+	  "frameRate": 12,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+      "prefix": "cavebfpixel up",
+	  "frameRate": 12,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "cavebfpixel right",
+	  "frameRate": 12,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "cavebfpixel mleft",
+	  "frameRate": 12,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "cavebfpixel mdown",
+	  "frameRate": 12,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "cavebfpixel mup",
+	  "frameRate": 12,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "cavebfpixel mright",
+	  "frameRate": 12,
+      "offsets": [0, 0]
+    }
+  ]
+}

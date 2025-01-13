@@ -1,0 +1,259 @@
+{
+  "version": "1.0.0",
+  "cameraZoom": 0.8,
+  "props": [
+    {
+      "zIndex": 20,
+      "danceEvery": 0,
+      "position": [0, 19],
+      "scale": [1, 1],
+      "name": "promoBGSad",
+      "animType": "sparrow",
+	  "startingAnimation": "idle",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/promo/promobg",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bg depression",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }	  
+	  ]
+    },
+    {
+      "zIndex": 25,
+      "danceEvery": 0,
+      "position": [0, 19],
+      "scale": [1, 1],
+      "name": "promoBG",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle",	  
+      "scroll": [1, 1],
+      "assetPath": "mario/promo/promobg",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bg normal",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }
+	  ]
+    },
+    {
+      "zIndex": 30,
+      "danceEvery": 0,
+      "position": [740, 552],
+      "scale": [1, 1],
+      "name": "promoDesk",
+      "animType": "sparrow",
+	  "startingAnimation": "stat",	
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/promo/promodesk",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "Promario desk static",
+          "name": "stat",
+          "looped": true,
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "Promario desk luigi",
+          "name": "luigi",
+          "looped": true,
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "Promario desk flash",
+          "name": "flash",
+          "looped": false,
+          "flipX": false
+        }		
+	  ]
+    },
+    {
+      "zIndex": 80,
+      "danceEvery": 0,
+      "position": [600, 800],
+      "scale": [1, 1],
+      "name": "darkFloor",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.001,
+      "assetPath": "mario/promo/wood floor",
+      "animations": []
+    },
+    {
+      "zIndex": 100,
+      "danceEvery": 2,
+      "position": [697, 215],
+      "scale": [1, 1],
+      "name": "stanley",
+      "animType": "sparrow",
+	  "startingAnimation": "danceRight",	
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.001,
+      "assetPath": "characters/promotion/Mario_Stanley",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "stanley idle left",
+          "name": "danceLeft",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "stanley idle right",
+          "name": "danceRight",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [155, 228],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "stanley up",
+          "name": "singUP",
+          "looped": false,
+          "flipX": false
+        },	
+	    {
+          "offsets": [146, -217],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "stanley down",
+          "name": "singDOWN",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [-168, 47],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "stanley right",
+          "name": "singRIGHT",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [394, 80],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "stanley left",
+          "name": "singLEFT",
+          "looped": false,
+          "flipX": false
+        }		
+	  ]
+    },
+    {
+      "zIndex": 90,
+      "danceEvery": 2,
+      "position": [200, 275],
+      "scale": [1, 1],
+      "name": "bgLuigi",
+      "animType": "sparrow",
+	  "startingAnimation": "danceRight",	
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.001,
+      "assetPath": "mario/promo/promo_luigi",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "luigi idle left",
+          "name": "danceLeft",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "luigi idle right",
+          "name": "danceRight",
+          "looped": false,
+          "flipX": false
+        }		
+	  ]
+    },
+    {
+      "zIndex": 85,
+      "danceEvery": 2,
+      "position": [1225, 225],
+      "scale": [1, 1],
+      "name": "bgPeach",
+      "animType": "sparrow",
+	  "startingAnimation": "danceRight",	
+      "isPixel": false,
+      "scroll": [1, 1],
+	  "alpha": 0.001,
+      "assetPath": "mario/promo/promo_peach",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "peach idle left",
+          "name": "danceLeft",
+          "looped": false,
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "peach idle right",
+          "name": "danceRight",
+          "looped": false,
+          "flipX": false
+        }		
+	  ]
+    }
+  ],
+  "characters": {
+    "bf": {
+      "zIndex": 50,
+      "position": [520, 1120],
+      "cameraOffsets": [300, -200]
+    },
+    "gf": {
+      "zIndex": 29,
+      "position": [450, 1020],
+      "cameraOffsets": [0, 0]
+    },
+    "dad": {
+      "zIndex": 60,
+      "position": [1300, 842],
+      "cameraOffsets": [-300, 0]
+    }
+  },
+  "name": "Promoshow"
+}

@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "name": "MX",
+  "renderType": "multisparrow",
+  "assetPath": "characters/mx/MX_v2_NEW_Assets",
+  "flipX": false,
+  "singTime": 4.0,
+  "healthIcon": {
+    "id": "2MX"
+  },  
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "MXIdle",
+      "offsets": [76, 246]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "MXLeft",
+      "offsets": [191, 700]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "MXDown",
+      "offsets": [61, -106]
+    },
+    {
+      "name": "singUP",
+      "prefix": "MXUp",
+      "offsets": [167, 1042]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "MXRight",
+      "offsets": [12, -61]
+    },
+    {
+      "name": "idle-alt",
+	  "assetPath": "characters/mx/MX_Faker_Assetss",
+      "prefix": "Idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT-alt",
+	  "assetPath": "characters/mx/MX_Faker_Assetss",
+      "prefix": "Left",
+      "offsets": [56, -3]
+    },
+    {
+      "name": "singDOWN-alt",
+	  "assetPath": "characters/mx/MX_Faker_Assetss",
+      "prefix": "Down",
+      "offsets": [11, -18]
+    },
+    {
+      "name": "singUP-alt",
+	  "assetPath": "characters/mx/MX_Faker_Assetss",
+      "prefix": "Up",
+      "offsets": [-5, 30]
+    },
+    {
+      "name": "singRIGHT-alt",
+	  "assetPath": "characters/mx/MX_Faker_Assetss",
+      "prefix": "Right",
+      "offsets": [0, 5]
+    }
+  ]
+}

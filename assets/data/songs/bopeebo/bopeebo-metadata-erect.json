@@ -1,43 +1,27 @@
 {
-  "version": "2.2.2",
-  "songName": "Bopeebo",
-  "artist": "Kawai Sprite (feat. Saruky)",
-  "divisions": 96,
-  "looped": false,
-  "offsets": {
-    "instrumental": 0,
-    "altInstrumentals": {},
-    "vocals": {}
-  },
+  "version": "2.2.4",
+  "songName": "Cocoa Erect",
+  "artist": "Saster",
+  "charter": "Fabs + Spazkid",
   "playData": {
-    "songVariations": [],
     "difficulties": ["erect", "nightmare"],
     "characters": {
-      "player": "bf",
-      "girlfriend": "gf",
-      "opponent": "dad",
-      "instrumental": "erect"
+      "player": "bf-christmas",
+      "girlfriend": "gf-christmas",
+      "opponent": "parents-christmas",
+      "instrumental": "erect",
+      "altInstrumentals": []
     },
-    "stage": "mainStage",
+    "stage": "mallXmasErect",
     "noteStyle": "funkin",
-    "ratings": {
-      "nightmare": 0,
-      "erect": 0,
-      "normal": 0
-    },
+    "ratings": { "erect": 8, "nightmare": 9 },
+    "album": "expansion2",
     "previewStart": 0,
-    "previewEnd": 0
+    "previewEnd": 15000
   },
-  "generatedBy": "Friday Night Funkin' - v0.3.0 PROTOTYPE",
+  "generatedBy": "Friday Night Funkin' - v0.5.0 (develop:96c151c:MODIFIED) PROTOTYPE",
   "timeFormat": "ms",
   "timeChanges": [
-    {
-      "t": 0,
-      "b": 0,
-      "bpm": 123,
-      "n": 4,
-      "d": 4,
-      "bt": [4, 4, 4, 4]
-    }
+    { "t": 0, "b": 0, "bpm": 174, "n": 4, "d": 4, "bt": [4, 4, 4, 4] }
   ]
 }

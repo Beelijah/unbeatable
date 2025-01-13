@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "name": "Bf-mario",
+  "renderType": "multisparrow",
+  "assetPath": "characters/MM_Boyfriend_SHADED_Assetsa",
+  "flipX": true,
+  "singTime": 4.0,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "IDLESCARED",
+      "offsets": [-4, 30]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "LEFTSCARED",
+      "offsets": [4, 31]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "DOWNSCARED",
+      "offsets": [-26, -4]
+    },
+    {
+      "name": "singUP",
+      "prefix": "UPSCARED",
+      "offsets": [-30, 92]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "RIGHTSCARED",
+      "offsets": [-46, 31]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "MISSLEFT",
+      "offsets": [3, 37]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "MISSDOWN",
+      "offsets": [-29, 40]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "MISSUP",
+      "offsets": [-28, 94]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "MISSRIGHT",
+      "offsets": [-43, 63]
+    }
+  ]
+}

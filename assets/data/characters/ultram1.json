@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "name": "Ultra M ACT1",
+  "renderType": "sparrow",
+  "assetPath": "characters/Ultra_M1_Assets",
+  "flipX": false,
+  "singTime": 4.0,
+    "healthIcon": {
+    "id": "ultram"
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Ultra M idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Ultra M left",
+      "offsets": [845, -27]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Ultra M down",
+      "offsets": [493, -219]
+    },	
+    {
+      "name": "singUP",
+      "prefix": "Ultra M up",
+      "offsets": [531, 441]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Ultra M right",
+      "offsets": [428, 62]
+    }
+  ]
+}

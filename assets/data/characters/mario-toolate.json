@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "name": "Mario-Toolate",
+  "renderType": "sparrow",
+  "assetPath": "characters/Too_Late_Mario",
+  "flipX": false,
+  "singTime": 4.0,  
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "mario idle",
+      "offsets": [-3, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "mario left",
+      "offsets": [143, -41]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "mario down",
+      "offsets": [65, -180]
+    },
+    {
+      "name": "singUP",
+      "prefix": "mario up",
+      "offsets": [75, 147]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "mario right",
+      "offsets": [152, -41]
+    },
+    {
+      "name": "fade",
+      "prefix": "mario fade away",
+      "offsets": [81, 196]
+    }
+  ]
+}

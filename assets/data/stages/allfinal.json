@@ -1,0 +1,1576 @@
+{
+  "version": "1.0.0",
+  "cameraZoom": 0.8,
+  "props": [
+    {
+      "zIndex": 10,
+      "danceEvery": 0,
+      "position": [-1600, -860],
+      "scale": [4, 4],
+      "name": "act1Stat",
+      "animType": "sparrow",
+      "isPixel": false,
+	  "startingAnimation": "idle",
+      "scroll": [0.4, 0.4],
+      "assetPath": "mario/allfinal/act1/act1_stat",
+      "animations": [
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "act1_static",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }
+	  ]
+    },
+	{
+      "zIndex": 5,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [8, 8],
+      "name": "blackbar",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "black",
+      "animations": []
+    },
+    {
+      "zIndex": 1000,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "act1Intro",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/allfinal/act1/All_Stars_Intro",
+      "animations": [
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "intro anim",
+          "name": "idle",
+          "looped": false,
+          "flipX": false
+        }
+	  ]
+    },	
+    {
+      "zIndex": 20,
+      "danceEvery": 0,
+      "position": [-1850, -660],
+      "scale": [1, 1],
+      "name": "act1Sky",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.6, 0.6],
+      "assetPath": "mario/allfinal/act1/act1_sky",
+      "animations": []
+    },
+    {
+      "zIndex": 20,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "act1Fog",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/allfinal/act1/act1",
+      "animations": []
+    },
+    {
+      "zIndex": 30,
+      "danceEvery": 0,
+      "position": [-2100, -660],
+      "scale": [1, 1],
+      "name": "act1Skyline",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.8, 0.8],
+      "assetPath": "mario/allfinal/act1/act1_skyline",
+      "animations": []
+    },
+    {
+      "zIndex": 40,
+      "danceEvery": 0,
+      "position": [-2100, -660],
+      "scale": [1, 1],
+      "name": "act1Buildings",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.8, 0.8],
+      "assetPath": "mario/allfinal/act1/act1_bgbuildings",
+      "animations": []
+    },
+    {
+      "zIndex": 50,
+      "danceEvery": 0,
+      "position": [-2300, -660],
+      "scale": [1, 1],
+      "name": "act1Floor",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/allfinal/act1/act1_floor",
+      "animations": []
+    },
+    {
+      "zIndex": 500,
+      "danceEvery": 0,
+      "position": [-2530, -850],
+      "scale": [1, 1],
+      "name": "act1FG",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1.7, 1.7],
+      "assetPath": "mario/allfinal/act1/act1_fg",
+      "animations": []
+    },
+    {
+      "zIndex": 70,
+      "danceEvery": 0,
+      "position": [-2300, -910],
+      "scale": [1, 1],
+      "name": "act1Gradient",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/allfinal/act1/act1_gradient",
+      "animations": []
+    },
+    {
+      "zIndex": 0,
+      "danceEvery": 0,
+      "position": [-470, -550],
+      "scale": [1.75, 1.75],
+      "name": "act2Stat",
+      "animType": "sparrow",
+      "isPixel": false,
+	  "startingAnimation": "idle",
+      "scroll": [0.2, 0.2],
+      "assetPath": "mario/allfinal/act2/act2_static",
+      "animations": [
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "act2stat",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }
+	  ]
+    },
+    {
+      "zIndex": 80,
+      "danceEvery": 0,
+      "position": [-500, -270],
+      "scale": [1, 1],
+      "name": "act2PipesFar",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.6, 0.6],
+      "assetPath": "mario/allfinal/act2/act2_pipes_far",
+      "animations": []
+    },
+    {
+      "zIndex": 90,
+      "danceEvery": 0,
+      "position": [-595, -425],
+      "scale": [1, 1],
+      "name": "act2Gradient",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.6, 0.6],
+      "assetPath": "mario/allfinal/act2/act2_abyss_gradient",
+      "animations": []
+    },
+    {
+      "zIndex": 100,
+      "danceEvery": 0,
+      "position": [-500, -300],
+      "scale": [1, 1],
+      "name": "act2PipesMiddle",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.7, 0.7],
+      "assetPath": "mario/allfinal/act2/act2_pipes_middle",
+      "animations": []
+    },
+    {
+      "zIndex": 110,
+      "danceEvery": 0,
+      "position": [-500, -320],
+      "scale": [1, 1],
+      "name": "act2PipesClose",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.8, 0.8],
+      "assetPath": "mario/allfinal/act2/act2_pipes_close",
+      "animations": []
+    },
+    {
+      "zIndex": 120,
+      "danceEvery": 0,
+      "position": [-613, -240],
+      "scale": [1, 1],
+      "name": "act2LPipe",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.9, 0.9],
+      "assetPath": "mario/allfinal/act2/act2_pipes_lgbf",
+      "animations": []
+    },
+    {
+      "zIndex": 120,
+      "danceEvery": 0,
+      "position": [-755, -180],
+      "scale": [1, 1],
+      "name": "act2WPipe",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.9, 0.9],
+      "assetPath": "mario/allfinal/act2/act2_pipes_waryosh",
+      "animations": []
+    },
+    {
+      "zIndex": 120,
+      "danceEvery": 0,
+      "position": [-450, -180],
+      "scale": [1, 1],
+      "name": "act2YPipe",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.9, 0.9],
+      "assetPath": "mario/allfinal/act2/act2_pipes_waryosh",
+      "animations": []
+    },
+    {
+      "zIndex": 125,
+      "danceEvery": 4,
+      "position": [850, 300],
+      "scale": [1, 1],
+      "name": "yoshi",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle",
+      "scroll": [0.9, 0.9],
+      "assetPath": "characters/yoshi",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "yoshi idle",
+          "name": "idle",
+          "flipX": false
+        },
+	    {
+          "offsets": [-120, 39],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "yoshi right",
+          "name": "singRIGHT",
+          "flipX": false
+        },
+	    {
+          "offsets": [33, -88],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "yoshi down",
+          "name": "singDOWN",
+          "flipX": false
+        },
+	    {
+          "offsets": [-22, 74],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "YOSHI UP",
+          "name": "singUP",
+          "flipX": false
+        },		
+	    {
+          "offsets": [59, -5],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "yoshi left",
+          "name": "singLEFT",
+          "flipX": false
+        }		
+	  ]
+    },
+    {
+      "zIndex": 125,
+      "danceEvery": 2,
+      "position": [200, 230],
+      "scale": [0.6, 0.6],
+      "name": "luigi",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle",
+      "scroll": [0.9, 0.9],
+      "assetPath": "characters/LG_Sprites",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "LG Idle",
+          "name": "idle",
+          "flipX": false
+        },
+	    {
+          "offsets": [-151, -31],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "LG Right",
+          "name": "singRIGHT",
+          "flipX": false
+        },
+	    {
+          "offsets": [-107, -24],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "LG Down",
+          "name": "singDOWN",
+          "flipX": false
+        },
+	    {
+          "offsets": [-104, 74],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "LG Up",
+          "name": "singUP",
+          "flipX": false
+        },		
+	    {
+          "offsets": [17, -42],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "LG Left",
+          "name": "singLEFT",
+          "flipX": false
+        }		
+	  ]
+    },
+    {
+      "zIndex": 125,
+      "danceEvery": 3,
+      "position": [-370, 200],
+      "scale": [1, 1],
+      "name": "wario",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle",
+      "scroll": [0.9, 0.9],
+      "assetPath": "characters/W4R_Assets_New",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "w4r idle",
+          "name": "idle",
+          "flipX": false
+        },
+	    {
+          "offsets": [-55, 56],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "w4r right",
+          "name": "singRIGHT",
+          "flipX": false
+        },
+	    {
+          "offsets": [82, -63],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "w4r down",
+          "name": "singDOWN",
+          "flipX": false
+        },
+	    {
+          "offsets": [80, 136],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "w4r up",
+          "name": "singUP",
+          "flipX": false
+        },		
+	    {
+          "offsets": [51, -24],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "w4r left",
+          "name": "singLEFT",
+          "flipX": false
+        }		
+	  ]
+    },
+    {
+      "zIndex": 130,
+      "danceEvery": 0,
+      "position": [-855, -130],
+      "scale": [1.2, 1.2],
+      "name": "act2BFPipe",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/allfinal/act2/act2_pipes_lgbf",
+      "animations": []
+    },
+    {
+      "zIndex": 0,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "act2Fog",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/allfinal/act2/act2",
+      "animations": []
+    },
+    {
+      "zIndex": 100,
+      "danceEvery": 0,
+      "position": [-40, 330],
+      "scale": [2, 2],
+      "name": "act2IntroGF",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.2, 0.2],
+      "assetPath": "mario/allfinal/act1/Act_2_Intro",
+      "animations": [
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "Anim1",
+          "name": "idle",
+          "looped": false,
+          "flipX": false
+        }
+	  
+	  ]
+    },
+    {
+      "zIndex": 130,
+      "danceEvery": 0,
+      "position": [-270, 320],
+      "scale": [0.8, 0.8],
+      "name": "act2IntroEyes",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.2, 0.2],
+      "assetPath": "mario/allfinal/act1/Act_2_Intro",
+      "animations": [
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "EyesBG",
+          "name": "idle",
+          "looped": false,
+          "flipX": false
+        }
+	  
+	  ]
+    },
+    {
+      "zIndex": 85,
+      "danceEvery": 2,
+      "position": [320, -130],
+      "scale": [1, 1],
+      "name": "omega",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle",
+      "scroll": [0.5, 0.5],
+      "assetPath": "characters/OmegaMario_Ass2",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "omegario idle",
+          "name": "idle",
+          "flipX": false
+        },
+	    {
+          "offsets": [20, -206],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "omegario right",
+          "name": "singRIGHT",
+          "flipX": false
+        },
+	    {
+          "offsets": [-3, 60],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "omegario down",
+          "name": "singDOWN",
+          "flipX": false
+        },
+	    {
+          "offsets": [54, 259],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "omegario up",
+          "name": "singUP",
+          "flipX": false
+        },		
+	    {
+          "offsets": [350, -23],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "omegario left",
+          "name": "singLEFT",
+          "flipX": false
+        },
+	    {
+          "offsets": [165, -34],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "omegario scream",
+          "name": "scream",
+          "flipX": false
+        },
+	    {
+          "offsets": [325, 214],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "omegario exit",
+		  "frameIndices": [
+            6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11
+          ],		  
+          "name": "exit1",
+          "flipX": false
+        },
+	    {
+          "offsets": [325, 214],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "omegario exit",
+		  "frameIndices": [
+           		12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74
+          ],		  
+          "name": "exit2",
+          "flipX": false
+        }		
+	  ]
+    },
+	{
+      "zIndex": 200,
+      "danceEvery": 2,
+      "position": [333, 520],
+      "scale": [1, 1],
+      "name": "bfbehind",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle",
+      "scroll": [1, 1],
+      "assetPath": "characters/bf_behind",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "BF IDLE",
+          "name": "idle",
+          "flipX": false
+        },
+	    {
+          "offsets": [-7, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bf right0",
+          "name": "singRIGHT",
+          "flipX": false
+        },
+	    {
+          "offsets": [7, -16],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bf down0",
+          "name": "singDOWN",
+          "flipX": false
+        },
+	    {
+          "offsets": [-5, 16],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bf up0",
+          "name": "singUP",
+          "flipX": false
+        },		
+	    {
+          "offsets": [10, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bf left0",
+          "name": "singLEFT",
+          "flipX": false
+        },
+			    {
+          "offsets": [-7, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bf right miss",
+          "name": "singRIGHTmiss",
+          "flipX": false
+        },
+	    {
+          "offsets": [7, -16],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bf down miss",
+          "name": "singDOWNmiss",
+          "flipX": false
+        },
+	    {
+          "offsets": [-5, 16],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bf up miss",
+          "name": "singUPmiss",
+          "flipX": false
+        },		
+	    {
+          "offsets": [10, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bf left miss",
+          "name": "singLEFTmiss",
+          "flipX": false
+        }
+	  ]
+	},
+    {
+      "zIndex": 400,
+      "danceEvery": 0,
+      "position": [-1305, -280],
+      "scale": [1.3, 1.3],
+      "name": "act3Stat",
+      "animType": "sparrow",
+      "startingAnimation": "idle",
+      "isPixel": false,
+      "scroll": [0.2, 0.2],
+      "assetPath": "mario/allfinal/act3/Act3_Static",
+      "animations": [
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "act3stat",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }	  
+	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 410,
+      "danceEvery": 0,
+      "position": [-1305, 250],
+      "scale": [1.3, 1.3],
+      "name": "act3Hills",
+      "animType": "sparrow",
+      "startingAnimation": "idle",
+      "isPixel": false,
+      "scroll": [0.4, 0.4],
+      "assetPath": "mario/allfinal/act3/Act3_Hills",
+      "animations": [
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "hills",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }	  
+	  ]
+    },
+    {
+      "zIndex": 420,
+      "danceEvery": 0,
+      "position": [-1200, -815],
+      "scale": [1, 1],
+      "name": "act3UltraArm",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.8, 0.8],
+      "assetPath": "mario/allfinal/act3/Act3_Ultra_Arm",
+      "animations": []
+    },
+    {
+      "zIndex": 430,
+      "danceEvery": 0,
+      "position": [-1585, -350],
+      "scale": [1.4, 1.4],
+      "name": "act3UltraBody",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.8, 0.8],
+      "assetPath": "mario/allfinal/act3/Act3_Ultra_M",
+      "animations": [
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "torso idle 1",
+          "name": "idle",
+          "looped": false,
+          "flipX": false
+        },	 
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "torso change pose",
+          "name": "change",
+          "looped": false,
+          "flipX": false
+        },
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "torso idle 2",
+          "name": "idle-alt",
+          "looped": false,
+          "flipX": false
+        }		
+	  ]
+    },
+    {
+      "zIndex": 440,
+      "danceEvery": 0,
+      "position": [-480, -300],
+      "scale": [1.1, 1.1],
+      "name": "act3UltraHead1",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.8, 0.8],
+      "assetPath": "mario/allfinal/act3/Act3_Ultra_M_Head",
+      "animations": [
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "ultra m static head",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        },	 
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "ultra m lyrics 1",
+          "name": "sing",
+          "looped": false,
+          "flipX": false
+        }		
+	  ]
+    },
+    {
+      "zIndex": 450,
+      "danceEvery": 0,
+      "position": [-460, -290],
+      "scale": [1, 1],
+      "name": "act3UltraHead2",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [0.8, 0.8],
+      "assetPath": "mario/allfinal/act3/Act3_Ultra_M_Head2",
+      "animations": [
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "ultra m head laugh",
+          "name": "laugh",
+          "looped": false,
+          "flipX": false
+        },	 
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "ultra m lyrics 2",
+          "name": "sing",
+          "looped": false,
+          "flipX": false
+        }		
+	  ]
+    },
+    {
+      "zIndex": 460,
+      "danceEvery": 0,
+      "position": [-140, 80],
+      "scale": [1, 1],
+      "name": "act3UltraPupils",
+      "animType": "sparrow",
+	  "startingAnimation": "idle",
+      "isPixel": false,
+      "scroll": [0.8, 0.8],
+      "assetPath": "mario/allfinal/act3/Act3_Ultra_Pupils",
+      "animations": [
+	  	{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "ultra pupils",
+          "name": "idle",
+          "looped": true,
+          "flipX": false
+        }	
+	  ]
+    },
+    {
+      "zIndex": 470,
+      "danceEvery": 0,
+      "position": [115, 605],
+      "scale": [1, 1],
+      "name": "act3BFPipe",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/allfinal/act3/Act3_bfpipe",
+      "animations": []
+    },
+    {
+      "zIndex": 1000,
+      "danceEvery": 0,
+      "position": [-1550, -300],
+      "scale": [1.3, 1],
+      "name": "act3Spotlight",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/allfinal/act3/act3Spotlight",
+      "animations": []
+    },
+    {
+      "zIndex": 0,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1.3, 1],
+      "name": "act3Fog",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/allfinal/act3/act3",
+      "animations": []
+    },
+	{
+      "zIndex": 480,
+      "danceEvery": 2,
+      "position": [270, 430],
+      "scale": [1, 1],
+      "name": "bfcrying",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle",
+      "scroll": [1, 1],
+      "assetPath": "characters/MM_Boyfriend_Assets_cryingfuck",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "SCAREDIDLE",
+          "name": "idle",
+          "flipX": false
+        },
+	    {
+          "offsets": [-37, 1],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "SCAREDRIGHT",
+          "name": "singRIGHT",
+          "flipX": false
+        },
+	    {
+          "offsets": [-27, -36],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "SCAREDDOWN",
+          "name": "singDOWN",
+          "flipX": false
+        },
+	    {
+          "offsets": [-21, 62],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "SCAREDUP",
+          "name": "singUP",
+          "flipX": false
+        },		
+	    {
+          "offsets": [-6, 1],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "SCAREDLEFT",
+          "name": "singLEFT",
+          "flipX": false
+        },
+			    {
+          "offsets": [-7, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "MISSSCAREDRIGHT",
+          "name": "singRIGHTmiss",
+          "flipX": false
+        },
+	    {
+          "offsets": [-24, 27],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "MISSSCAREDDOWN",
+          "name": "singDOWNmiss",
+          "flipX": false
+        },
+	    {
+          "offsets": [-39, 31],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "MISSSCAREDUP",
+          "name": "singUPmiss",
+          "flipX": false
+        },		
+	    {
+          "offsets": [4, 23],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "MISSSCAREDLEFT",
+          "name": "singLEFTmiss",
+          "flipX": false
+        },
+	    {
+          "offsets": [-12, 45],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "Act3Intro",
+          "name": "cut",
+          "flipX": false
+        }
+	  ]
+	},
+	{
+      "zIndex": 480,
+      "danceEvery": 2,
+      "position": [-1400, -1310],
+      "scale": [1, 1],
+      "name": "gx",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle",
+      "scroll": [1, 1],
+      "assetPath": "characters/GX_Sprites_FINAL",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "GXIdle",
+          "name": "idle",
+          "flipX": false
+        },
+	    {
+          "offsets": [-158, 49],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "GXRight",
+          "name": "singRIGHT",
+          "flipX": false
+        },
+	    {
+          "offsets": [45, -60],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "GXDown",
+          "name": "singDOWN",
+          "flipX": false
+        },
+	    {
+          "offsets": [137, 102],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "GXUp",
+          "name": "singUP",
+          "flipX": false
+        },		
+	    {
+          "offsets": [140, -20],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "GXLeft",
+          "name": "singLEFT",
+          "flipX": false
+        }
+	  ]
+	},
+    {
+      "zIndex": 1000,
+      "danceEvery": 0,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "name": "act4Intro",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/allfinal/act4/Act_4_Voiceline",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "thingy",
+		  "looped": true,
+          "name": "idle",
+          "flipX": false
+        }	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 500,
+      "danceEvery": 0,
+      "position": [-75, -300],
+      "scale": [1, 1],
+      "name": "act4Stat",
+      "animType": "sparrow",
+	  "startingAnimation": "idle",
+      "isPixel": false,
+      "scroll": [0.3, 0.3],
+      "assetPath": "mario/allfinal/act4/gray static",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "static",
+		  "looped": true,
+          "name": "idle",
+          "flipX": false
+        }	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 510,
+      "danceEvery": 0,
+      "position": [-180, 25],
+      "scale": [1, 1],
+      "name": "act4Ripple",
+      "animType": "sparrow",
+	  "startingAnimation": "idle",
+      "isPixel": false,
+      "scroll": [0.5, 0.5],
+      "assetPath": "mario/allfinal/act4/bg ripple",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bg ripple",
+		  "looped": true,
+          "name": "idle",
+          "flipX": false
+        }	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 520,
+      "danceEvery": 0,
+      "position": [810, 650],
+      "scale": [1, 1],
+      "name": "act4Pipe1",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "mario/allfinal/act4/bf pipe final",
+      "animations": []
+    },
+    {
+      "zIndex": 530,
+      "danceEvery": 0,
+      "position": [265, 580],
+      "scale": [1, 1],
+      "name": "act4Pipe2",
+      "animType": "sparrow",
+	  "startingAnimation": "idle",
+      "isPixel": false,
+      "scroll": [1, 1],
+      "assetPath": "characters/Act_4_secondperspective",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "looped": true,		  
+          "prefix": "pipe",
+          "name": "idle",
+          "flipX": false
+        }	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 540,
+      "danceEvery": 0,
+      "position": [-550, 250],
+      "scale": [1.2, 1.2],
+      "name": "act4Memory1",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1.1, 1.1],
+      "assetPath": "mario/allfinal/act4/memory",
+      "animations": []
+    },
+    {
+      "zIndex": 540,
+      "danceEvery": 0,
+      "position": [700, -50],
+      "scale": [1.2, 1.2],
+      "name": "act4Memory2",
+      "animType": "sparrow",
+      "isPixel": false,
+      "scroll": [1.1, 1.1],
+      "assetPath": "mario/allfinal/act4/she got infected with the exe",
+      "animations": []
+    },
+    {
+      "zIndex": 550,
+      "danceEvery": 0,
+      "position": [150, 40],
+      "scale": [1, 1],
+      "name": "act4Lightning",
+      "animType": "sparrow",
+      "isPixel": false,
+	  "startingAnimation": "idle",	  
+      "scroll": [1, 1],
+      "assetPath": "mario/allfinal/act4/Act_4_FINALE_Lightingmcqueen",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "looped": true,		  
+          "prefix": "line",
+          "name": "idle",
+          "flipX": false
+        }	  
+	  
+	  
+	  ]
+    },
+    {
+      "zIndex": 550,
+      "danceEvery": 0,
+      "position": [-700, -300],
+      "scale": [2, 2],
+      "name": "act4Spotlight",
+      "animType": "sparrow",
+      "isPixel": false,	  
+      "scroll": [1, 1],
+      "assetPath": "mario/allfinal/act4/spotlight",
+      "animations": []
+    },
+	{
+      "zIndex": 545,
+      "danceEvery": 2,
+      "position": [810, 475],
+      "scale": [1, 1],
+      "name": "bfultra",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle",
+      "scroll": [1, 1],
+      "assetPath": "characters/ultram_final_bf",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bf idle",
+          "name": "idle",
+          "flipX": false
+        },
+	    {
+          "offsets": [-13, 4],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bf right",
+          "name": "singRIGHT",
+          "flipX": false
+        },
+	    {
+          "offsets": [8, 6],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bf down",
+          "name": "singDOWN",
+          "flipX": false
+        },
+	    {
+          "offsets": [-12, 4],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bf up",
+          "name": "singUP",
+          "flipX": false
+        },		
+	    {
+          "offsets": [9, -4],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "bf left",
+          "name": "singLEFT",
+          "flipX": false
+        }
+	  ]
+	},
+	{
+      "zIndex": 515,
+      "danceEvery": 2,
+      "position": [-310, 100],
+      "scale": [1, 1],
+      "name": "mario_ultra2",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle",
+      "scroll": [1, 1],
+      "assetPath": "characters/Ultra_M2_Assets",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "ultra idle",
+          "name": "idle",
+          "flipX": false
+        },
+	    {
+          "offsets": [231, 36],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "ultra right",
+          "name": "singRIGHT",
+          "flipX": false
+        },
+	    {
+          "offsets": [140, 238],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "ultra down",
+          "name": "singDOWN",
+          "flipX": false
+        },
+	    {
+          "offsets": [342, 324],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "ultra up",
+          "name": "singUP",
+          "flipX": false
+        },		
+	    {
+          "offsets": [6, 80],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "ultra left",
+          "name": "singLEFT",
+          "flipX": false
+        }
+	  ]
+	},
+	{
+      "zIndex": 546,
+      "danceEvery": 20,
+      "position": [380, 130],
+      "scale": [1, 1],
+      "name": "bfultra2",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle",
+      "scroll": [1, 1],
+      "assetPath": "characters/Act_4_secondperspective",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "BFIldle",
+          "name": "idle",
+          "flipX": false
+        },
+	    {
+          "offsets": [-5, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "BFRight0",
+          "name": "singRIGHT",
+          "flipX": false
+        },
+	    {
+          "offsets": [2, -15],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "BFDown0",
+          "name": "singDOWN",
+          "flipX": false
+        },
+	    {
+          "offsets": [-8, 23],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "BFUp0",
+          "name": "singUP",
+          "flipX": false
+        },		
+	    {
+          "offsets": [-2, 1],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "BFLeft0",
+          "name": "singLEFT",
+          "flipX": false
+        },
+	    {
+          "offsets": [-10, -4],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "BFRightALT",
+          "name": "singRIGHT-alt",
+          "flipX": false
+        },
+	    {
+          "offsets": [25, -100],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "BFDownALT",
+          "name": "singDOWN-alt",
+          "flipX": false
+        },
+	    {
+          "offsets": [60, 160],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "BFUpALT",
+          "name": "singUP-alt",
+          "flipX": false
+        },		
+	    {
+          "offsets": [86, 13],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "BFLeftALT",
+          "name": "singLEFT-alt",
+          "flipX": false
+        }
+	  ]
+	},
+	{
+      "zIndex": 549,
+      "danceEvery": 2,
+      "position": [500, 300],
+      "scale": [1, 1],
+      "name": "bfultra3",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle",
+      "scroll": [1, 1],
+      "assetPath": "characters/Act_4_FINALE_BF",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "Idle",
+          "name": "idle",
+          "flipX": false
+        },
+	    {
+          "offsets": [15, 8],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "Right",
+          "name": "singRIGHT",
+          "flipX": false
+        },
+	    {
+          "offsets": [111, -172],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "Down",
+          "name": "singDOWN",
+          "flipX": false
+        },
+	    {
+          "offsets": [-104, 120],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "Up",
+          "name": "singUP",
+          "flipX": false
+        },		
+	    {
+          "offsets": [70, -16],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "Left",
+          "name": "singLEFT",
+          "flipX": false
+        }
+	  ]
+	},
+	{
+      "zIndex": 549,
+      "danceEvery": 2,
+      "position": [-130, 40],
+      "scale": [1, 1],
+      "name": "mario_ultra3",
+      "animType": "sparrow",
+      "isPixel": false,
+      "startingAnimation": "idle",
+      "scroll": [1, 1],
+      "assetPath": "characters/Act_4_FINALE_Ultra",
+      "animations": [
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "ultra idle",
+          "name": "idle",
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "ultra right",
+          "name": "singRIGHT",
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "ultra down",
+          "name": "singDOWN",
+          "flipX": false
+        },
+	    {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "ultra up",
+          "name": "singUP",
+          "flipX": false
+        },		
+	    {
+          "offsets": [0, -20],
+          "flipY": false,
+          "frameRate": 24,	  
+          "prefix": "ultra left",
+          "name": "singLEFT",
+          "flipX": false
+        }
+	  ]
+	}
+
+  ],
+  "characters": {
+    "bf": {
+      "zIndex": 250,
+      "position": [490, 880],
+      "cameraOffsets": [-300, -100]
+    },
+    "gf": {
+      "zIndex": 150,
+      "position": [807, 880],
+      "cameraOffsets": [0, 0]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [-1130, 1170],
+      "cameraOffsets": [450, -200]
+    }
+  },
+  "name": "All-Final"
+}

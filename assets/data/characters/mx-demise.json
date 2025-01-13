@@ -1,0 +1,72 @@
+{
+  "version": "1.0.0",
+  "name": "Mx-Demise",
+  "renderType": "multisparrow",
+  "assetPath": "characters/mx/MX_Demise_Assets",
+  "flipX": false,
+  "singTime": 4.0,
+  "healthIcon": {
+    "id": "MXdemise"
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "MX Running Upper Body",
+	  "frameRate": 35,
+	  "looped": true,
+      "offsets": [4, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "MX Sing Left",
+      "offsets": [426, -59]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "MX Sing Down",
+      "offsets": [207, -70]
+    },
+    {
+      "name": "singUP",
+      "prefix": "MX Sing Up",
+      "offsets": [-158, 263]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "MX Sing Right",
+      "offsets": [-300, 57]
+    },
+    {
+      "name": "idle-alt",
+	  "assetPath": "characters/mx/MX_Demise_Assets_Underground",
+      "prefix": "UGMXRunning",
+	  "frameRate": 35,
+	  "looped": true,
+      "offsets": [4, 0]
+    },
+    {
+      "name": "singLEFT-alt",
+	  "assetPath": "characters/mx/MX_Demise_Assets_Underground",
+      "prefix": "MXLeft",
+      "offsets": [426, -59]
+    },
+    {
+      "name": "singDOWN-alt",
+	  "assetPath": "characters/mx/MX_Demise_Assets_Underground",
+      "prefix": "MXDown",
+      "offsets": [207, -70]
+    },
+    {
+      "name": "singUP-alt",
+	  "assetPath": "characters/mx/MX_Demise_Assets_Underground",
+      "prefix": "MXUp",
+      "offsets": [-158, 263]
+    },
+    {
+      "name": "singRIGHT-alt",
+	  "assetPath": "characters/mx/MX_Demise_Assets_Underground",
+      "prefix": "MXRight",
+      "offsets": [-300, 57]
+    }
+  ]
+}

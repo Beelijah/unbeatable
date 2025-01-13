@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "name": "GrandDad",
+  "renderType": "sparrow",
+  "assetPath": "characters/dad7/Grand_Dad_Assets",
+  "flipX": false,
+  "singTime": 4.0,
+  "scale": 1.2,
+  "healthIcon": {
+    "id": "gdad"
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "GrandIdle",
+      "offsets": [-85, 6]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "GrandLeft",
+      "offsets": [-66, 8]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "GrandDown",
+      "offsets": [-35, -170]
+    },
+    {
+      "name": "singUP",
+      "prefix": "GrandUp",
+      "offsets": [-40, 136]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "GrandRight",
+      "offsets": [-108, 10]
+    }
+  ]
+}

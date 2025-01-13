@@ -1,0 +1,72 @@
+{
+  "version": "1.0.0",
+  "name": "Bf-Demise",
+  "renderType": "multisparrow",
+  "assetPath": "characters/mx/Demise_BF_Assets",
+  "flipX": true,
+  "singTime": 4.0,
+  "healthIcon": {
+    "id": "bfdemise"
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "BF Running",
+	  "frameRate": 40,
+	  "looped": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "UpperLeft",
+      "offsets": [75, -20]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "UpperDown",
+      "offsets": [10, -15]
+    },
+    {
+      "name": "singUP",
+      "prefix": "UpperUp",
+      "offsets": [-40, 25]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "UpperRight",
+      "offsets": [72, -1]
+    },
+    {
+      "name": "idle-alt",
+	  "assetPath": "characters/mx/Demise_BF_Assets_Underground",
+	  "frameRate": 40,
+      "prefix": "UGBF Run",
+	  "looped": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT-alt",
+	  "assetPath": "characters/mx/Demise_BF_Assets_Underground",
+      "prefix": "UGLeft",
+      "offsets": [75, -20]
+    },
+    {
+      "name": "singDOWN-alt",
+	  "assetPath": "characters/mx/Demise_BF_Assets_Underground",
+      "prefix": "UGDown",
+      "offsets": [10, -15]
+    },
+    {
+      "name": "singUP-alt",
+	  "assetPath": "characters/mx/Demise_BF_Assets_Underground",
+      "prefix": "UGUp",
+      "offsets": [-40, 25]
+    },
+    {
+      "name": "singRIGHT-alt",
+	  "assetPath": "characters/mx/Demise_BF_Assets_Underground",
+      "prefix": "UGRight",
+      "offsets": [72, -1]
+    }
+  ]
+}
