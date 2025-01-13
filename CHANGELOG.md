@@ -1,1 +1,0 @@
-If you'd like to read the original contents of this, check the 3rd commit.
